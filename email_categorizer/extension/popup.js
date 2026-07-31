@@ -371,6 +371,8 @@ function updateUI() {
     panelTitleEl.textContent = currentFilter === 'All' ? 'All Emails' : currentFilter;
   }
 
+  renderAccounts();
+
   // Render email list
   const listEl = document.getElementById('emailList');
   if (!listEl) return;
@@ -390,7 +392,10 @@ function updateUI() {
     item.innerHTML = `
       <div class="email-header">
         <span class="email-from">${escapeHtml(email.from)}</span>
-        <span class="email-category-badge">${escapeHtml(email.category)}</span>
+        <span class="email-meta">
+          ${email.account ? `<span class="email-account">${escapeHtml(email.accountLabel || email.account)}</span>` : ''}
+          <span class="email-category-badge">${escapeHtml(email.category)}</span>
+        </span>
       </div>
       <div class="email-subject">${escapeHtml(email.subject)}</div>
       <div class="confidence-bar">
@@ -404,6 +409,43 @@ function updateUI() {
 
     listEl.appendChild(item);
   }
+}
+
+// Show the linked accounts that emails were pulled from (consolidator view)
+function renderAccounts() {
+  const container = document.getElementById('accountList');
+  if (!container) return;
+
+  const counts = {};
+  for (const email of categorizedEmails) {
+    if (!email.account) continue;
+    const key = email.account;
+    if (!counts[key]) {
+      counts[key] = { label: email.accountLabel || email.account, email: email.account, count: 0 };
+    }
+    counts[key].count++;
+  }
+
+  const accounts = Object.values(counts).sort((a, b) => b.count - a.count);
+  const section = container.closest('.accounts-section');
+
+  if (accounts.length === 0) {
+    if (section) section.style.display = 'none';
+    container.innerHTML = '';
+    return;
+  }
+
+  if (section) section.style.display = 'block';
+
+  container.innerHTML = accounts.map(a => `
+    <div class="account-chip">
+      <span class="account-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      </span>
+      <span class="account-name" title="${escapeHtml(a.email)}">${escapeHtml(a.label)}</span>
+      <span class="account-count">${a.count}</span>
+    </div>
+  `).join('');
 }
 
 function escapeHtml(text) {
@@ -779,6 +821,8 @@ async function loadDemoEmails() {
       subject: e.subject,
       from: e.from,
       body: e.body || '',
+      account: e.account || '',
+      accountLabel: e.accountLabel || '',
       fullText: e.subject + ' ' + (e.body || '')
     }));
 

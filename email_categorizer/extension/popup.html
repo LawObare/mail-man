@@ -27,7 +27,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>
           Try demo mode
         </button>
-        <p class="demo-note">Demo mode categorizes 100 bundled sample emails. No Google account or client ID needed.</p>
+        <p class="demo-note">Demo mode shows 100 bundled sample emails consolidated from 4 linked accounts. No Google account or client ID needed.</p>
         <div id="status" class="status-text">Ready</div>
       </div>
     </div>
@@ -90,6 +90,11 @@
             Add Custom Category
           </button>
           <div id="customCategoryList"></div>
+        </div>
+
+        <div class="accounts-section" style="display:none">
+          <div class="accounts-header">Linked accounts</div>
+          <div id="accountList" class="account-list"></div>
         </div>
 
         <div class="sidebar-footer">

@@ -287,6 +287,68 @@ body {
   margin-top: auto;
 }
 
+.accounts-section {
+  padding: 8px 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.accounts-header {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #9ca3af;
+  margin-bottom: 6px;
+}
+
+.account-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.account-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: #f8fafc;
+}
+
+.account-chip:hover {
+  background: #f1f5f9;
+}
+
+.account-icon {
+  display: inline-flex;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.account-icon svg {
+  width: 14px;
+  height: 14px;
+}
+
+.account-name {
+  font-size: 12px;
+  color: #4b5563;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.account-count {
+  margin-left: auto;
+  font-size: 11px;
+  color: #6b7280;
+  background: #e2e8f0;
+  border-radius: 8px;
+  padding: 0 6px;
+  line-height: 16px;
+}
+
 .math-badge {
   font-size: 10px;
   color: #9ca3af;
@@ -379,6 +441,21 @@ body {
   font-weight: 500;
   color: #2563eb;
   background: #eff6ff;
+  padding: 1px 8px;
+  border-radius: 2px;
+}
+
+.email-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.email-account {
+  font-size: 10px;
+  font-weight: 500;
+  color: #6b7280;
+  background: #f3f4f6;
   padding: 1px 8px;
   border-radius: 2px;
 }
