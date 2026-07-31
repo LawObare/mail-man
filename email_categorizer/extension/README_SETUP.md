@@ -38,16 +38,16 @@ Gmail. It covers:
 
    - Open `chrome://extensions`
    - Turn on **Developer mode** (top-right)
-   - Click **Load unpacked** and select the folder
-     `email_categorizer/extension`
-   - Note the 32-character ID shown under "Inbox Categorizer" (keep the
-     extension folder in place; moving it changes the ID)
+   - Click **Load unpacked** and select **this folder** (the one containing
+     `manifest.json`)
+   - Note the 32-character ID shown under "Inbox Categorizer" (keep this
+     folder in place; moving it changes the ID)
 
 ---
 
 ## Run the setup
 
-From the project root:
+From this folder (the extension folder, where `manifest.json` lives):
 
 ```bash
 python3 setup_oauth.py
@@ -66,15 +66,10 @@ The script will:
 7. Open the **Credentials** page for you to create the OAuth client ID
    (Chrome Extension type, Application ID = your extension ID).
 8. Ask you to paste the finished **client ID**.
-9. Patch `email_categorizer/extension/manifest.json` with that client ID
+9. Patch `manifest.json` (in this folder) with that client ID
    (a backup copy is saved as `manifest.json.bak`).
 
 ### After the script finishes
-
-```bash
-cd email_categorizer/extension
-# or just reload the extension from chrome://extensions
-```
 
 - Reload the extension in Chrome (`chrome://extensions` -> refresh icon).
 - Open the popup and click **Sign in with Gmail**.
@@ -129,7 +124,7 @@ gcloud services enable gmail.googleapis.com
 #    Application type: Chrome Extension
 #    Application ID: <your extension ID from chrome://extensions>
 
-# 6. Paste the client ID into email_categorizer/extension/manifest.json
+# 6. Paste the client ID into manifest.json (this folder)
 #    "oauth2": { "client_id": "PASTE_HERE.apps.googleusercontent.com", ... }
 
 # 7. Reload the extension and sign in.
