@@ -1,0 +1,26 @@
+[
+  {
+    "id": "personal",
+    "name": "Alex Morgan",
+    "email": "alexmorgan@gmail.com",
+    "color": "#f59e0b"
+  },
+  {
+    "id": "university",
+    "name": "Alex Morgan",
+    "email": "alexm@student.university.edu",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "work",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@northwindcorp.com",
+    "color": "#2563eb"
+  },
+  {
+    "id": "banking",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@securebank.com",
+    "color": "#059669"
+  }
+]

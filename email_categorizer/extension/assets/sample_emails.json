@@ -5,7 +5,9 @@
     "from": "Professor Davis <prof.davis@university.edu>",
     "body": "Dear students, please note that the CS101 midterm exam has been scheduled for next Thursday. The updated syllabus and lecture slides are now available on the campus student portal. Please review chapters 3 to 6 and submit your homework assignment before Friday midnight.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-28T07:06:00"
   },
   {
     "id": "email_2",
@@ -13,7 +15,9 @@
     "from": "TA Sarah Jenkins <sjenkins@cs.university.edu>",
     "body": "Your grades for assignment 3 have been posted on the course portal. If you have questions about your grade, please drop by my office hours tomorrow between 2 PM and 4 PM at the computer science building.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-27T08:35:00"
   },
   {
     "id": "email_3",
@@ -21,7 +25,9 @@
     "from": "University Library System <library@university.edu>",
     "body": "This is a automated reminder that the book 'Introduction to Linear Algebra' borrowed from the campus main library is due in 3 days. You may renew your loan online through the student portal.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-26T04:19:00"
   },
   {
     "id": "email_4",
@@ -29,7 +35,9 @@
     "from": "Department of Computer Science <events@cs.university.edu>",
     "body": "Join us this Wednesday for a guest lecture by Dr. Alan Turing on modern latent semantic analysis and SVD applications. The lecture will take place in Auditorium B at 10 AM. All undergraduate and graduate students are welcome.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-25T04:50:00"
   },
   {
     "id": "email_5",
@@ -37,7 +45,9 @@
     "from": "University Registrar <registrar@university.edu>",
     "body": "Registration for the Spring semester opens next week. Please check your student account for any registration holds and consult your academic advisor regarding degree requirements and course selections.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-24T05:12:00"
   },
   {
     "id": "email_6",
@@ -45,7 +55,9 @@
     "from": "Prof. Marcus Vance <mvance@ai.university.edu>",
     "body": "Our laboratory is seeking two undergraduate research assistants for the upcoming semester. Selected candidates will work on text processing algorithms, TF-IDF matrix decomposition, and natural language modeling. Apply with your transcript.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-23T06:38:00"
   },
   {
     "id": "email_7",
@@ -53,7 +65,9 @@
     "from": "Graduate Studies Office <grad@university.edu>",
     "body": "You are invited to the Master's thesis defense presentation by Alex Rivera titled 'Dimensionality Reduction Techniques in Text Vectorization'. The session will be held in Seminar Room 402 on Monday at 3 PM.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-22T07:16:00"
   },
   {
     "id": "email_8",
@@ -61,7 +75,9 @@
     "from": "Physics Lab Coordinator <physics.lab@university.edu>",
     "body": "Please download the dataset for Lab 2 from the online course repository. Ensure all data analysis plots and error calculations are included in your final laboratory report due next Tuesday.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-20T23:42:00"
   },
   {
     "id": "email_9",
@@ -69,7 +85,9 @@
     "from": "Financial Aid Office <finaid@university.edu>",
     "body": "The deadline for the Academic Excellence Scholarship application is approaching on August 15. Eligible full-time students with a GPA above 3.5 are encouraged to submit their essays and academic references.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-20T07:31:00"
   },
   {
     "id": "email_10",
@@ -77,7 +95,9 @@
     "from": "Math Department <math.seminar@university.edu>",
     "body": "This week's mathematics seminar will cover Singular Value Decomposition, Eigenvalues, and document-term matrix algebra. Abstract and reading materials have been posted to the department notice board.",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-19T01:48:00"
   },
   {
     "id": "email_11",
@@ -85,7 +105,9 @@
     "from": "Professor Davis <prof.davis@university.edu>",
     "body": "Dear students, please note that the CS101 midterm exam has been scheduled for next Thursday. The updated syllabus and lecture slides are now available on the campus student portal. Please review chapters 3 to 6 and submit your homework assignment before Friday midnight. (Updated tracking reference #EDU382 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-18T08:28:00"
   },
   {
     "id": "email_12",
@@ -93,7 +115,9 @@
     "from": "TA Sarah Jenkins <sjenkins@cs.university.edu>",
     "body": "Your grades for assignment 3 have been posted on the course portal. If you have questions about your grade, please drop by my office hours tomorrow between 2 PM and 4 PM at the computer science building. (Updated tracking reference #EDU419 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-17T08:30:00"
   },
   {
     "id": "email_13",
@@ -101,7 +125,9 @@
     "from": "University Library System <library@university.edu>",
     "body": "This is a automated reminder that the book 'Introduction to Linear Algebra' borrowed from the campus main library is due in 3 days. You may renew your loan online through the student portal. (Updated tracking reference #EDU456 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-16T07:25:00"
   },
   {
     "id": "email_14",
@@ -109,7 +135,9 @@
     "from": "Department of Computer Science <events@cs.university.edu>",
     "body": "Join us this Wednesday for a guest lecture by Dr. Alan Turing on modern latent semantic analysis and SVD applications. The lecture will take place in Auditorium B at 10 AM. All undergraduate and graduate students are welcome. (Updated tracking reference #EDU493 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-15T05:17:00"
   },
   {
     "id": "email_15",
@@ -117,7 +145,9 @@
     "from": "University Registrar <registrar@university.edu>",
     "body": "Registration for the Spring semester opens next week. Please check your student account for any registration holds and consult your academic advisor regarding degree requirements and course selections. (Updated tracking reference #EDU530 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-14T05:02:00"
   },
   {
     "id": "email_16",
@@ -125,7 +155,9 @@
     "from": "Prof. Marcus Vance <mvance@ai.university.edu>",
     "body": "Our laboratory is seeking two undergraduate research assistants for the upcoming semester. Selected candidates will work on text processing algorithms, TF-IDF matrix decomposition, and natural language modeling. Apply with your transcript. (Updated tracking reference #EDU567 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-13T00:23:00"
   },
   {
     "id": "email_17",
@@ -133,7 +165,9 @@
     "from": "Graduate Studies Office <grad@university.edu>",
     "body": "You are invited to the Master's thesis defense presentation by Alex Rivera titled 'Dimensionality Reduction Techniques in Text Vectorization'. The session will be held in Seminar Room 402 on Monday at 3 PM. (Updated tracking reference #EDU604 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-12T08:33:00"
   },
   {
     "id": "email_18",
@@ -141,7 +175,9 @@
     "from": "Physics Lab Coordinator <physics.lab@university.edu>",
     "body": "Please download the dataset for Lab 2 from the online course repository. Ensure all data analysis plots and error calculations are included in your final laboratory report due next Tuesday. (Updated tracking reference #EDU641 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-10T23:26:00"
   },
   {
     "id": "email_19",
@@ -149,7 +185,9 @@
     "from": "Financial Aid Office <finaid@university.edu>",
     "body": "The deadline for the Academic Excellence Scholarship application is approaching on August 15. Eligible full-time students with a GPA above 3.5 are encouraged to submit their essays and academic references. (Updated tracking reference #EDU678 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-10T05:37:00"
   },
   {
     "id": "email_20",
@@ -157,7 +195,9 @@
     "from": "Math Department <math.seminar@university.edu>",
     "body": "This week's mathematics seminar will cover Singular Value Decomposition, Eigenvalues, and document-term matrix algebra. Abstract and reading materials have been posted to the department notice board. (Updated tracking reference #EDU715 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-08T23:42:00"
   },
   {
     "id": "email_21",
@@ -165,7 +205,9 @@
     "from": "Professor Davis <prof.davis@university.edu>",
     "body": "Dear students, please note that the CS101 midterm exam has been scheduled for next Thursday. The updated syllabus and lecture slides are now available on the campus student portal. Please review chapters 3 to 6 and submit your homework assignment before Friday midnight. (Updated tracking reference #EDU752 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-08T01:51:00"
   },
   {
     "id": "email_22",
@@ -173,7 +215,9 @@
     "from": "TA Sarah Jenkins <sjenkins@cs.university.edu>",
     "body": "Your grades for assignment 3 have been posted on the course portal. If you have questions about your grade, please drop by my office hours tomorrow between 2 PM and 4 PM at the computer science building. (Updated tracking reference #EDU789 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-07T05:15:00"
   },
   {
     "id": "email_23",
@@ -181,7 +225,9 @@
     "from": "University Library System <library@university.edu>",
     "body": "This is a automated reminder that the book 'Introduction to Linear Algebra' borrowed from the campus main library is due in 3 days. You may renew your loan online through the student portal. (Updated tracking reference #EDU826 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-06T01:21:00"
   },
   {
     "id": "email_24",
@@ -189,7 +235,9 @@
     "from": "Department of Computer Science <events@cs.university.edu>",
     "body": "Join us this Wednesday for a guest lecture by Dr. Alan Turing on modern latent semantic analysis and SVD applications. The lecture will take place in Auditorium B at 10 AM. All undergraduate and graduate students are welcome. (Updated tracking reference #EDU863 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-05T04:16:00"
   },
   {
     "id": "email_25",
@@ -197,7 +245,9 @@
     "from": "University Registrar <registrar@university.edu>",
     "body": "Registration for the Spring semester opens next week. Please check your student account for any registration holds and consult your academic advisor regarding degree requirements and course selections. (Updated tracking reference #EDU900 for your records).",
     "account": "alexm@student.university.edu",
-    "accountLabel": "University"
+    "accountLabel": "University",
+    "accountId": "university",
+    "date": "2026-07-04T08:54:00"
   },
   {
     "id": "email_26",
@@ -205,7 +255,9 @@
     "from": "Elena Rostova <elena.rostova@company.corp>",
     "body": "Hi Team, please find attached the agenda for our Q4 strategic planning meeting tomorrow at 10 AM. We will review project timelines, resource allocation, client feedback, and key performance indicators. Please update your status slides.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-03T06:17:00"
   },
   {
     "id": "email_27",
@@ -213,7 +265,9 @@
     "from": "Finance Operations <billing@company.corp>",
     "body": "Please review and approve vendor invoice #4892 from Acme Corp for Q3 software license fees ($4,500.00). Once approved, the payment will be scheduled for processing by the accounts payable team.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-02T01:48:00"
   },
   {
     "id": "email_28",
@@ -221,7 +275,9 @@
     "from": "David Kim <dkim@company.corp>",
     "body": "Our bi-weekly sprint review meeting is scheduled for 3 PM today. We will demonstrate the new client portal features, discuss sprint velocity, and outline deliverables for the next two weeks.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-28T03:12:00"
   },
   {
     "id": "email_29",
@@ -229,7 +285,9 @@
     "from": "Rachel Green <rgreen@company.corp>",
     "body": "I have updated the client pitch deck and service level contract for the Global Logistics account proposal. Please review the pricing schedule and project scope before our meeting with their executive director.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-27T04:16:00"
   },
   {
     "id": "email_30",
@@ -237,7 +295,9 @@
     "from": "Michael Scott <mscott@company.corp>",
     "body": "Here is a summary of action items from today's team status meeting: 1. Finalize product specs by Wednesday. 2. Schedule client call with engineering leads. 3. Review Q4 budget allocation with management.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-26T06:21:00"
   },
   {
     "id": "email_31",
@@ -245,7 +305,9 @@
     "from": "Senior Systems Architect <architecture@company.corp>",
     "body": "Due to infrastructure maintenance over the weekend, the deadline for the microservice API integration has been extended to Monday 5 PM. Please notify your engineering sub-teams accordingly.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-25T05:20:00"
   },
   {
     "id": "email_32",
@@ -253,7 +315,9 @@
     "from": "Human Resources <hr@company.corp>",
     "body": "Mid-year performance reviews for H2 will commence next month. Employees should complete their self-evaluations and manager alignment feedback forms in the HR portal by the end of the week.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-24T03:16:00"
   },
   {
     "id": "email_33",
@@ -261,7 +325,9 @@
     "from": "Executive Operations <exec@company.corp>",
     "body": "Our Q3 OKR results are in! Join our company-wide town hall meeting this Thursday as executive leadership presents revenue metrics, product delivery milestones, and customer retention highlights.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-23T07:16:00"
   },
   {
     "id": "email_34",
@@ -269,7 +335,9 @@
     "from": "Legal Counsel <legal@company.corp>",
     "body": "Attached is the draft Master Services Agreement for our new cloud infrastructure vendor. Please provide feedback on clause 8 regarding data security and intellectual property by Thursday afternoon.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-22T07:26:00"
   },
   {
     "id": "email_35",
@@ -277,7 +345,9 @@
     "from": "UX Lead Designer <ux@company.corp>",
     "body": "We have updated our internal component design system guidelines. All frontend developers should refer to the new typography standards, muted color tokens, and border specifications for upcoming UI releases.",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-21T02:31:00"
   },
   {
     "id": "email_36",
@@ -285,7 +355,9 @@
     "from": "Elena Rostova <elena.rostova@company.corp>",
     "body": "Hi Team, please find attached the agenda for our Q4 strategic planning meeting tomorrow at 10 AM. We will review project timelines, resource allocation, client feedback, and key performance indicators. Please update your status slides. (Updated tracking reference #WRK382 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-20T07:21:00"
   },
   {
     "id": "email_37",
@@ -293,7 +365,9 @@
     "from": "Finance Operations <billing@company.corp>",
     "body": "Please review and approve vendor invoice #4892 from Acme Corp for Q3 software license fees ($4,500.00). Once approved, the payment will be scheduled for processing by the accounts payable team. (Updated tracking reference #WRK419 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-19T02:53:00"
   },
   {
     "id": "email_38",
@@ -301,7 +375,9 @@
     "from": "David Kim <dkim@company.corp>",
     "body": "Our bi-weekly sprint review meeting is scheduled for 3 PM today. We will demonstrate the new client portal features, discuss sprint velocity, and outline deliverables for the next two weeks. (Updated tracking reference #WRK456 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-18T03:08:00"
   },
   {
     "id": "email_39",
@@ -309,7 +385,9 @@
     "from": "Rachel Green <rgreen@company.corp>",
     "body": "I have updated the client pitch deck and service level contract for the Global Logistics account proposal. Please review the pricing schedule and project scope before our meeting with their executive director. (Updated tracking reference #WRK493 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-17T04:30:00"
   },
   {
     "id": "email_40",
@@ -317,7 +395,9 @@
     "from": "Michael Scott <mscott@company.corp>",
     "body": "Here is a summary of action items from today's team status meeting: 1. Finalize product specs by Wednesday. 2. Schedule client call with engineering leads. 3. Review Q4 budget allocation with management. (Updated tracking reference #WRK530 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-16T08:16:00"
   },
   {
     "id": "email_41",
@@ -325,7 +405,9 @@
     "from": "Senior Systems Architect <architecture@company.corp>",
     "body": "Due to infrastructure maintenance over the weekend, the deadline for the microservice API integration has been extended to Monday 5 PM. Please notify your engineering sub-teams accordingly. (Updated tracking reference #WRK567 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-15T01:10:00"
   },
   {
     "id": "email_42",
@@ -333,7 +415,9 @@
     "from": "Human Resources <hr@company.corp>",
     "body": "Mid-year performance reviews for H2 will commence next month. Employees should complete their self-evaluations and manager alignment feedback forms in the HR portal by the end of the week. (Updated tracking reference #WRK604 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-13T23:51:00"
   },
   {
     "id": "email_43",
@@ -341,7 +425,9 @@
     "from": "Executive Operations <exec@company.corp>",
     "body": "Our Q3 OKR results are in! Join our company-wide town hall meeting this Thursday as executive leadership presents revenue metrics, product delivery milestones, and customer retention highlights. (Updated tracking reference #WRK641 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-13T06:53:00"
   },
   {
     "id": "email_44",
@@ -349,7 +435,9 @@
     "from": "Legal Counsel <legal@company.corp>",
     "body": "Attached is the draft Master Services Agreement for our new cloud infrastructure vendor. Please provide feedback on clause 8 regarding data security and intellectual property by Thursday afternoon. (Updated tracking reference #WRK678 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-12T02:33:00"
   },
   {
     "id": "email_45",
@@ -357,7 +445,9 @@
     "from": "UX Lead Designer <ux@company.corp>",
     "body": "We have updated our internal component design system guidelines. All frontend developers should refer to the new typography standards, muted color tokens, and border specifications for upcoming UI releases. (Updated tracking reference #WRK715 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-11T07:40:00"
   },
   {
     "id": "email_46",
@@ -365,7 +455,9 @@
     "from": "Elena Rostova <elena.rostova@company.corp>",
     "body": "Hi Team, please find attached the agenda for our Q4 strategic planning meeting tomorrow at 10 AM. We will review project timelines, resource allocation, client feedback, and key performance indicators. Please update your status slides. (Updated tracking reference #WRK752 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-09T23:35:00"
   },
   {
     "id": "email_47",
@@ -373,7 +465,9 @@
     "from": "Finance Operations <billing@company.corp>",
     "body": "Please review and approve vendor invoice #4892 from Acme Corp for Q3 software license fees ($4,500.00). Once approved, the payment will be scheduled for processing by the accounts payable team. (Updated tracking reference #WRK789 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-09T04:00:00"
   },
   {
     "id": "email_48",
@@ -381,7 +475,9 @@
     "from": "David Kim <dkim@company.corp>",
     "body": "Our bi-weekly sprint review meeting is scheduled for 3 PM today. We will demonstrate the new client portal features, discuss sprint velocity, and outline deliverables for the next two weeks. (Updated tracking reference #WRK826 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-08T02:50:00"
   },
   {
     "id": "email_49",
@@ -389,7 +485,9 @@
     "from": "Rachel Green <rgreen@company.corp>",
     "body": "I have updated the client pitch deck and service level contract for the Global Logistics account proposal. Please review the pricing schedule and project scope before our meeting with their executive director. (Updated tracking reference #WRK863 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-06T23:09:00"
   },
   {
     "id": "email_50",
@@ -397,7 +495,9 @@
     "from": "Michael Scott <mscott@company.corp>",
     "body": "Here is a summary of action items from today's team status meeting: 1. Finalize product specs by Wednesday. 2. Schedule client call with engineering leads. 3. Review Q4 budget allocation with management. (Updated tracking reference #WRK900 for your records).",
     "account": "alex.morgan@northwindcorp.com",
-    "accountLabel": "Work"
+    "accountLabel": "Work",
+    "accountId": "work",
+    "date": "2026-07-06T05:44:00"
   },
   {
     "id": "email_51",
@@ -405,7 +505,9 @@
     "from": "First National Bank <alerts@firstbank.com>",
     "body": "Your account balance as of July 31 is $14,250.80. A recent credit transaction of $1,250.00 was posted to your checking account. Log in to online banking to review your complete transaction history.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-05T07:49:00"
   },
   {
     "id": "email_52",
@@ -413,7 +515,9 @@
     "from": "Apex Credit Services <statements@apexcredit.com>",
     "body": "Your monthly credit card statement for statement period ending July 28 is now available online. Minimum payment due: $150.00 on August 20. View details, interest charges, and mortgage loan balance online.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-04T08:14:00"
   },
   {
     "id": "email_53",
@@ -421,7 +525,9 @@
     "from": "Vanguard Wealth Management <investments@vanguardwealth.com>",
     "body": "Your quarterly investment portfolio summary shows a return of +4.2%. Dividend payments totaling $320.50 were reinvested into your index fund portfolio on July 15. Check your tax documents online.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-03T05:07:00"
   },
   {
     "id": "email_54",
@@ -429,7 +535,9 @@
     "from": "Home Loan Financial <servicing@homeloanfin.com>",
     "body": "Important notice regarding mortgage loan #992810. Your annual escrow analysis has been completed. Your monthly mortgage escrow payment will adjust by $24.50 starting next month. Details attached.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-02T04:04:00"
   },
   {
     "id": "email_55",
@@ -437,7 +545,9 @@
     "from": "Global Settlement Services <wire@settlementbank.com>",
     "body": "We confirm that outgoing wire transfer TX-88391 in the amount of $5,000.00 has been processed successfully to beneficiary account ending in 4412. Transaction fees: $15.00.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-28T07:39:00"
   },
   {
     "id": "email_56",
@@ -445,7 +555,9 @@
     "from": "Capital Trust Bank <tax@capitaltrust.com>",
     "body": "Your 1099-INT interest income tax form for the previous tax year is now ready in your secure document vault. Please download this form for your annual income tax filing.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-27T05:02:00"
   },
   {
     "id": "email_57",
@@ -453,7 +565,9 @@
     "from": "Security & Fraud Dept <fraud-prevention@cardsecurity.com>",
     "body": "We detected an unusual debit card transaction of $499.99 at an online merchant. If you authorized this transaction, reply YES. If not, reply NO immediately to lock your card and prevent unauthorized charges.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-26T07:17:00"
   },
   {
     "id": "email_58",
@@ -461,7 +575,9 @@
     "from": "Utility Electric Company <billing@utilityelectric.com>",
     "body": "Your monthly electric bill of $112.45 will be automatically debited from your checking account on August 5 under reference AUTO-PAY-9812. No action is required.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-25T02:31:00"
   },
   {
     "id": "email_59",
@@ -469,7 +585,9 @@
     "from": "Horizon Bank Direct <info@horizonbank.com>",
     "body": "Great news! We have increased the annual percentage yield (APY) on your High-Yield Savings Account to 4.85%. Your interest will continue to compound monthly on your total balance.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-24T04:16:00"
   },
   {
     "id": "email_60",
@@ -477,7 +595,9 @@
     "from": "Auto Finance Corp <payments@autofinance.com>",
     "body": "Thank you for your payment of $385.00 received on July 30. Remaining principal balance on auto loan #44102: $8,420.00. Principal breakdown and interest charges are available online.",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-23T01:16:00"
   },
   {
     "id": "email_61",
@@ -485,7 +605,9 @@
     "from": "First National Bank <alerts@firstbank.com>",
     "body": "Your account balance as of July 31 is $14,250.80. A recent credit transaction of $1,250.00 was posted to your checking account. Log in to online banking to review your complete transaction history. (Updated tracking reference #FIN382 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-22T02:47:00"
   },
   {
     "id": "email_62",
@@ -493,7 +615,9 @@
     "from": "Apex Credit Services <statements@apexcredit.com>",
     "body": "Your monthly credit card statement for statement period ending July 28 is now available online. Minimum payment due: $150.00 on August 20. View details, interest charges, and mortgage loan balance online. (Updated tracking reference #FIN419 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-21T06:14:00"
   },
   {
     "id": "email_63",
@@ -501,7 +625,9 @@
     "from": "Vanguard Wealth Management <investments@vanguardwealth.com>",
     "body": "Your quarterly investment portfolio summary shows a return of +4.2%. Dividend payments totaling $320.50 were reinvested into your index fund portfolio on July 15. Check your tax documents online. (Updated tracking reference #FIN456 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-20T02:41:00"
   },
   {
     "id": "email_64",
@@ -509,7 +635,9 @@
     "from": "Home Loan Financial <servicing@homeloanfin.com>",
     "body": "Important notice regarding mortgage loan #992810. Your annual escrow analysis has been completed. Your monthly mortgage escrow payment will adjust by $24.50 starting next month. Details attached. (Updated tracking reference #FIN493 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-19T02:57:00"
   },
   {
     "id": "email_65",
@@ -517,7 +645,9 @@
     "from": "Global Settlement Services <wire@settlementbank.com>",
     "body": "We confirm that outgoing wire transfer TX-88391 in the amount of $5,000.00 has been processed successfully to beneficiary account ending in 4412. Transaction fees: $15.00. (Updated tracking reference #FIN530 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-18T05:26:00"
   },
   {
     "id": "email_66",
@@ -525,7 +655,9 @@
     "from": "Capital Trust Bank <tax@capitaltrust.com>",
     "body": "Your 1099-INT interest income tax form for the previous tax year is now ready in your secure document vault. Please download this form for your annual income tax filing. (Updated tracking reference #FIN567 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-17T04:27:00"
   },
   {
     "id": "email_67",
@@ -533,7 +665,9 @@
     "from": "Security & Fraud Dept <fraud-prevention@cardsecurity.com>",
     "body": "We detected an unusual debit card transaction of $499.99 at an online merchant. If you authorized this transaction, reply YES. If not, reply NO immediately to lock your card and prevent unauthorized charges. (Updated tracking reference #FIN604 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-16T07:47:00"
   },
   {
     "id": "email_68",
@@ -541,7 +675,9 @@
     "from": "Utility Electric Company <billing@utilityelectric.com>",
     "body": "Your monthly electric bill of $112.45 will be automatically debited from your checking account on August 5 under reference AUTO-PAY-9812. No action is required. (Updated tracking reference #FIN641 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-15T06:05:00"
   },
   {
     "id": "email_69",
@@ -549,7 +685,9 @@
     "from": "Horizon Bank Direct <info@horizonbank.com>",
     "body": "Great news! We have increased the annual percentage yield (APY) on your High-Yield Savings Account to 4.85%. Your interest will continue to compound monthly on your total balance. (Updated tracking reference #FIN678 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-13T23:54:00"
   },
   {
     "id": "email_70",
@@ -557,7 +695,9 @@
     "from": "Auto Finance Corp <payments@autofinance.com>",
     "body": "Thank you for your payment of $385.00 received on July 30. Remaining principal balance on auto loan #44102: $8,420.00. Principal breakdown and interest charges are available online. (Updated tracking reference #FIN715 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-13T04:50:00"
   },
   {
     "id": "email_71",
@@ -565,7 +705,9 @@
     "from": "First National Bank <alerts@firstbank.com>",
     "body": "Your account balance as of July 31 is $14,250.80. A recent credit transaction of $1,250.00 was posted to your checking account. Log in to online banking to review your complete transaction history. (Updated tracking reference #FIN752 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-12T06:13:00"
   },
   {
     "id": "email_72",
@@ -573,7 +715,9 @@
     "from": "Apex Credit Services <statements@apexcredit.com>",
     "body": "Your monthly credit card statement for statement period ending July 28 is now available online. Minimum payment due: $150.00 on August 20. View details, interest charges, and mortgage loan balance online. (Updated tracking reference #FIN789 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-11T01:07:00"
   },
   {
     "id": "email_73",
@@ -581,7 +725,9 @@
     "from": "Vanguard Wealth Management <investments@vanguardwealth.com>",
     "body": "Your quarterly investment portfolio summary shows a return of +4.2%. Dividend payments totaling $320.50 were reinvested into your index fund portfolio on July 15. Check your tax documents online. (Updated tracking reference #FIN826 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-10T02:32:00"
   },
   {
     "id": "email_74",
@@ -589,7 +735,9 @@
     "from": "Home Loan Financial <servicing@homeloanfin.com>",
     "body": "Important notice regarding mortgage loan #992810. Your annual escrow analysis has been completed. Your monthly mortgage escrow payment will adjust by $24.50 starting next month. Details attached. (Updated tracking reference #FIN863 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-09T04:24:00"
   },
   {
     "id": "email_75",
@@ -597,7 +745,9 @@
     "from": "Global Settlement Services <wire@settlementbank.com>",
     "body": "We confirm that outgoing wire transfer TX-88391 in the amount of $5,000.00 has been processed successfully to beneficiary account ending in 4412. Transaction fees: $15.00. (Updated tracking reference #FIN900 for your records).",
     "account": "alex.morgan@securebank.com",
-    "accountLabel": "Banking"
+    "accountLabel": "Banking",
+    "accountId": "banking",
+    "date": "2026-07-07T23:30:00"
   },
   {
     "id": "email_76",
@@ -605,7 +755,9 @@
     "from": "Fashion Style Store <deals@fashionstyle.com>",
     "body": "Don't miss our summer clearance event! Enjoy up to 50% off select apparel, shoes, and accessories. Use promo code SUMMER50 at checkout to unlock free shipping on orders over $50. Limited time offer!",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-07T05:16:00"
   },
   {
     "id": "email_77",
@@ -613,7 +765,9 @@
     "from": "Tech Gadgets Insider <newsletter@techgadgets.com>",
     "body": "In this week's newsletter: Save $200 on noise-canceling headphones, exclusive discount coupons for smart watches, and clearance prices on laptops! Click to claim your exclusive subscriber discount code.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-06T03:28:00"
   },
   {
     "id": "email_78",
@@ -621,7 +775,9 @@
     "from": "City Bookshop <promotions@citybookshop.com>",
     "body": "Special weekend promotion for book lovers! Buy one bestseller and get a second book of equal or lesser value completely free. Plus, earn double reward points on all online purchases.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-05T08:03:00"
   },
   {
     "id": "email_79",
@@ -629,7 +785,9 @@
     "from": "Rewards Club Operations <rewards@retailclub.com>",
     "body": "You have earned a $15 VIP reward voucher! Redeem your discount points online or in-store on any order of $40 or more before it expires at the end of the month. Shop now and save!",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-04T05:06:00"
   },
   {
     "id": "email_80",
@@ -637,7 +795,9 @@
     "from": "Home Decor Outlet <sales@homedecor.com>",
     "body": "Hurry! Our 24-hour flash sale starts right now. Save 30% on kitchenware, furniture, bedding, and home accents. Enter coupon FLASH30 at checkout. Discount automatically applied.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-03T08:28:00"
   },
   {
     "id": "email_81",
@@ -645,7 +805,9 @@
     "from": "Urban Apparel <vip@urbanapparel.com>",
     "body": "As a valued loyalty member, you get exclusive early access to our new Fall Collection! Enjoy 20% off all new arrivals when you shop before midnight tonight using your member account.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-02T03:37:00"
   },
   {
     "id": "email_82",
@@ -653,7 +815,9 @@
     "from": "Electronics World <clearance@electronicsworld.com>",
     "body": "Massive warehouse clearance blowout! We are clearing inventory with prices slashed up to 70% off retail value. Free shipping on all orders. Shop limited quantities while supplies last!",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-28T02:10:00"
   },
   {
     "id": "email_83",
@@ -661,7 +825,9 @@
     "from": "Cloud Stream Plus <offers@cloudstream.com>",
     "body": "Upgrade your streaming subscription to Premium HD today and receive 3 months completely free! Enjoy unlimited movie downloads, no advertisements, and exclusive original series.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-27T04:26:00"
   },
   {
     "id": "email_84",
@@ -669,7 +835,9 @@
     "from": "Quick Eats App <promo@quickeats.com>",
     "body": "Hungry? Take $10 off your food delivery order of $25 or more this weekend with promo code EATS10. Discover top local restaurants with zero delivery fees for premium members.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-26T07:53:00"
   },
   {
     "id": "email_85",
@@ -677,7 +845,9 @@
     "from": "Outdoor Adventure Gear <news@outdoorgear.com>",
     "body": "Final hours! Your subscriber discount coupon is expiring soon. Take 40% off camping equipment, hiking boots, and outdoor jackets. Don't wait\u2014shop the sale before prices go back up.",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-25T05:24:00"
   },
   {
     "id": "email_86",
@@ -685,7 +855,9 @@
     "from": "Fashion Style Store <deals@fashionstyle.com>",
     "body": "Don't miss our summer clearance event! Enjoy up to 50% off select apparel, shoes, and accessories. Use promo code SUMMER50 at checkout to unlock free shipping on orders over $50. Limited time offer! (Updated tracking reference #PRM382 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-23T23:20:00"
   },
   {
     "id": "email_87",
@@ -693,7 +865,9 @@
     "from": "Tech Gadgets Insider <newsletter@techgadgets.com>",
     "body": "In this week's newsletter: Save $200 on noise-canceling headphones, exclusive discount coupons for smart watches, and clearance prices on laptops! Click to claim your exclusive subscriber discount code. (Updated tracking reference #PRM419 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-23T03:38:00"
   },
   {
     "id": "email_88",
@@ -701,7 +875,9 @@
     "from": "City Bookshop <promotions@citybookshop.com>",
     "body": "Special weekend promotion for book lovers! Buy one bestseller and get a second book of equal or lesser value completely free. Plus, earn double reward points on all online purchases. (Updated tracking reference #PRM456 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-22T05:23:00"
   },
   {
     "id": "email_89",
@@ -709,7 +885,9 @@
     "from": "Rewards Club Operations <rewards@retailclub.com>",
     "body": "You have earned a $15 VIP reward voucher! Redeem your discount points online or in-store on any order of $40 or more before it expires at the end of the month. Shop now and save! (Updated tracking reference #PRM493 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-21T00:29:00"
   },
   {
     "id": "email_90",
@@ -717,7 +895,9 @@
     "from": "Home Decor Outlet <sales@homedecor.com>",
     "body": "Hurry! Our 24-hour flash sale starts right now. Save 30% on kitchenware, furniture, bedding, and home accents. Enter coupon FLASH30 at checkout. Discount automatically applied. (Updated tracking reference #PRM530 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-20T02:15:00"
   },
   {
     "id": "email_91",
@@ -725,7 +905,9 @@
     "from": "Urban Apparel <vip@urbanapparel.com>",
     "body": "As a valued loyalty member, you get exclusive early access to our new Fall Collection! Enjoy 20% off all new arrivals when you shop before midnight tonight using your member account. (Updated tracking reference #PRM567 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-19T01:11:00"
   },
   {
     "id": "email_92",
@@ -733,7 +915,9 @@
     "from": "Electronics World <clearance@electronicsworld.com>",
     "body": "Massive warehouse clearance blowout! We are clearing inventory with prices slashed up to 70% off retail value. Free shipping on all orders. Shop limited quantities while supplies last! (Updated tracking reference #PRM604 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-18T06:34:00"
   },
   {
     "id": "email_93",
@@ -741,7 +925,9 @@
     "from": "Cloud Stream Plus <offers@cloudstream.com>",
     "body": "Upgrade your streaming subscription to Premium HD today and receive 3 months completely free! Enjoy unlimited movie downloads, no advertisements, and exclusive original series. (Updated tracking reference #PRM641 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-17T04:29:00"
   },
   {
     "id": "email_94",
@@ -749,7 +935,9 @@
     "from": "Quick Eats App <promo@quickeats.com>",
     "body": "Hungry? Take $10 off your food delivery order of $25 or more this weekend with promo code EATS10. Discover top local restaurants with zero delivery fees for premium members. (Updated tracking reference #PRM678 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-16T06:38:00"
   },
   {
     "id": "email_95",
@@ -757,7 +945,9 @@
     "from": "Outdoor Adventure Gear <news@outdoorgear.com>",
     "body": "Final hours! Your subscriber discount coupon is expiring soon. Take 40% off camping equipment, hiking boots, and outdoor jackets. Don't wait\u2014shop the sale before prices go back up. (Updated tracking reference #PRM715 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-15T04:48:00"
   },
   {
     "id": "email_96",
@@ -765,7 +955,9 @@
     "from": "Fashion Style Store <deals@fashionstyle.com>",
     "body": "Don't miss our summer clearance event! Enjoy up to 50% off select apparel, shoes, and accessories. Use promo code SUMMER50 at checkout to unlock free shipping on orders over $50. Limited time offer! (Updated tracking reference #PRM752 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-13T23:26:00"
   },
   {
     "id": "email_97",
@@ -773,7 +965,9 @@
     "from": "Tech Gadgets Insider <newsletter@techgadgets.com>",
     "body": "In this week's newsletter: Save $200 on noise-canceling headphones, exclusive discount coupons for smart watches, and clearance prices on laptops! Click to claim your exclusive subscriber discount code. (Updated tracking reference #PRM789 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-12T23:49:00"
   },
   {
     "id": "email_98",
@@ -781,7 +975,9 @@
     "from": "City Bookshop <promotions@citybookshop.com>",
     "body": "Special weekend promotion for book lovers! Buy one bestseller and get a second book of equal or lesser value completely free. Plus, earn double reward points on all online purchases. (Updated tracking reference #PRM826 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-12T04:31:00"
   },
   {
     "id": "email_99",
@@ -789,7 +985,9 @@
     "from": "Rewards Club Operations <rewards@retailclub.com>",
     "body": "You have earned a $15 VIP reward voucher! Redeem your discount points online or in-store on any order of $40 or more before it expires at the end of the month. Shop now and save! (Updated tracking reference #PRM863 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-10T23:02:00"
   },
   {
     "id": "email_100",
@@ -797,6 +995,8 @@
     "from": "Home Decor Outlet <sales@homedecor.com>",
     "body": "Hurry! Our 24-hour flash sale starts right now. Save 30% on kitchenware, furniture, bedding, and home accents. Enter coupon FLASH30 at checkout. Discount automatically applied. (Updated tracking reference #PRM900 for your records).",
     "account": "alexmorgan@gmail.com",
-    "accountLabel": "Personal"
+    "accountLabel": "Personal",
+    "accountId": "personal",
+    "date": "2026-07-10T01:42:00"
   }
 ]

@@ -27,6 +27,8 @@ let svdMatrix = [];
 let customCategories = [];
 let isProcessing = false;
 let demoMode = false;
+let linkedAccounts = [];
+const accountsById = {};
 
 // ============================================================
 // 1. LOAD WEIGHTS FROM ASSETS
@@ -388,12 +390,13 @@ function updateUI() {
     item.className = 'email-item';
 
     const confidencePercent = Math.round(email.confidence * 100);
+    const account = getAccountFor(email);
 
     item.innerHTML = `
       <div class="email-header">
         <span class="email-from">${escapeHtml(email.from)}</span>
         <span class="email-meta">
-          ${email.account ? `<span class="email-account">${escapeHtml(email.accountLabel || email.account)}</span>` : ''}
+          ${account ? `<span class="email-account" style="color:${account.color}">${escapeHtml(account.email)}</span>` : ''}
           <span class="email-category-badge">${escapeHtml(email.category)}</span>
         </span>
       </div>
@@ -404,32 +407,27 @@ function updateUI() {
       <div class="confidence-label">${confidencePercent}% match</div>
     `;
 
-    // Click handler to launch Math Visualizer!
-    item.addEventListener('click', () => showMathVisualizer(email));
+    // Click handler opens the email; the math visualizer is optional
+    item.addEventListener('click', () => showEmailViewer(email));
 
     listEl.appendChild(item);
   }
 }
 
-// Show the linked accounts that emails were pulled from (consolidator view)
+// Show the dummy linked accounts that demo emails were pulled from
 function renderAccounts() {
   const container = document.getElementById('accountList');
   if (!container) return;
 
   const counts = {};
   for (const email of categorizedEmails) {
-    if (!email.account) continue;
-    const key = email.account;
-    if (!counts[key]) {
-      counts[key] = { label: email.accountLabel || email.account, email: email.account, count: 0 };
-    }
-    counts[key].count++;
+    if (!email.accountId) continue;
+    counts[email.accountId] = (counts[email.accountId] || 0) + 1;
   }
 
-  const accounts = Object.values(counts).sort((a, b) => b.count - a.count);
   const section = container.closest('.accounts-section');
 
-  if (accounts.length === 0) {
+  if (linkedAccounts.length === 0) {
     if (section) section.style.display = 'none';
     container.innerHTML = '';
     return;
@@ -437,15 +435,72 @@ function renderAccounts() {
 
   if (section) section.style.display = 'block';
 
-  container.innerHTML = accounts.map(a => `
+  container.innerHTML = linkedAccounts.map(a => `
     <div class="account-chip">
-      <span class="account-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <span class="account-dot" style="background:${a.color}"></span>
+      <span class="account-name" title="${escapeHtml(a.name)} — ${escapeHtml(a.email)}">
+        <span class="account-email">${escapeHtml(a.email)}</span>
       </span>
-      <span class="account-name" title="${escapeHtml(a.email)}">${escapeHtml(a.label)}</span>
-      <span class="account-count">${a.count}</span>
+      <span class="account-count">${counts[a.id] || 0}</span>
     </div>
   `).join('');
+}
+
+function getAccountFor(email) {
+  if (!email || !email.accountId) return null;
+  return accountsById[email.accountId] || null;
+}
+
+function formatEmailDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr;
+  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function showEmailViewer(email) {
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+
+  const account = getAccountFor(email);
+  const confidencePercent = Math.round(email.confidence * 100);
+
+  overlay.innerHTML = `
+    <div class="modal email-modal">
+      <button class="close-btn" id="closeEmail" aria-label="Close">${ICONS.x}</button>
+      <div class="email-viewer">
+        <div class="ev-badges">
+          <span class="email-category-badge">${escapeHtml(email.category)}</span>
+          ${account ? `<span class="ev-account-badge" style="color:${account.color}">${escapeHtml(account.email)}</span>` : ''}
+          <span class="ev-conf">${confidencePercent}% match</span>
+        </div>
+        <div class="ev-subject">${escapeHtml(email.subject)}</div>
+        <div class="ev-meta">
+          <div class="ev-row"><span class="ev-label">From</span><span class="ev-value">${escapeHtml(email.from)}</span></div>
+          ${account ? `<div class="ev-row"><span class="ev-label">To</span><span class="ev-value">${escapeHtml(account.name)} &lt;${escapeHtml(account.email)}&gt;</span></div>` : ''}
+          ${email.date ? `<div class="ev-row"><span class="ev-label">Date</span><span class="ev-value">${escapeHtml(formatEmailDate(email.date))}</span></div>` : ''}
+        </div>
+        <div class="ev-body">${escapeHtml(email.body || '(No body)')}</div>
+        <div class="ev-actions">
+          <button class="btn-secondary" id="openMathBtn">
+            <span class="head-icon">${ICONS.calculator}</span>
+            How it was categorized
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(overlay);
+
+  overlay.querySelector('#closeEmail').onclick = () => overlay.remove();
+  overlay.querySelector('#openMathBtn').onclick = () => {
+    overlay.remove();
+    showMathVisualizer(email);
+  };
+  overlay.onclick = (e) => {
+    if (e.target === overlay) overlay.remove();
+  };
 }
 
 function escapeHtml(text) {
@@ -665,15 +720,6 @@ function showMathVisualizer(email) {
           </div>
         </details>
       </div>
-
-      <div class="math-section">
-        <h4>Email source preview</h4>
-        <div class="email-preview">
-          <strong>From:</strong> ${escapeHtml(email.from)}<br>
-          <strong>Subject:</strong> ${escapeHtml(email.subject)}<br>
-          <strong>Body:</strong> ${escapeHtml((email.body || '').substring(0, 250))}${(email.body || '').length > 250 ? '...' : ''}
-        </div>
-      </div>
     </div>
   `;
 
@@ -812,17 +858,26 @@ async function loadDemoEmails() {
   setStatus(statusEl, 'Loading sample emails...');
 
   try {
-    const resp = await fetch(chrome.runtime.getURL('assets/sample_emails.json'));
-    if (!resp.ok) throw new Error('Sample data missing');
-    const sample = await resp.json();
+    const [sampleResp, accountsResp] = await Promise.all([
+      fetch(chrome.runtime.getURL('assets/sample_emails.json')),
+      fetch(chrome.runtime.getURL('assets/accounts.json'))
+    ]);
+    if (!sampleResp.ok) throw new Error('Sample data missing');
+
+    const sample = await sampleResp.json();
+    if (accountsResp.ok) {
+      linkedAccounts = await accountsResp.json();
+      for (const k of Object.keys(accountsById)) delete accountsById[k];
+      linkedAccounts.forEach(a => { accountsById[a.id] = a; });
+    }
 
     const emails = sample.map(e => ({
       id: e.id,
       subject: e.subject,
       from: e.from,
       body: e.body || '',
-      account: e.account || '',
-      accountLabel: e.accountLabel || '',
+      accountId: e.accountId || '',
+      date: e.date || '',
       fullText: e.subject + ' ' + (e.body || '')
     }));
 
