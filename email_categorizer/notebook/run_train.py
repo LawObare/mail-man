@@ -104,26 +104,17 @@ def train_and_export():
             vec /= norm
         return vec
 
-    centroids = {}
-    for cat, seeds in seed_dict.items():
+    centroid_order = ["Education", "Work", "Finance", "Promotions"]
+    centroids_list = []
+    for cat in centroid_order:
+        seeds = seed_dict[cat]
         seed_text = " ".join(seeds)
         seed_vec = transform_text(seed_text)
         svd_c = seed_vec @ V_k
         c_norm = np.linalg.norm(svd_c)
         if c_norm > 0:
             svd_c /= c_norm
-        centroids[cat] = svd_c.tolist()
-
-    # Validation: Print top 5 emails similar to "Work" centroid
-    work_centroid = np.array(centroids["Work"])
-    sims = X_svd @ work_centroid
-    top5_indices = np.argsort(sims)[::-1][:5]
-
-    print("\n--- Top 5 Emails Most Similar to 'Work' Centroid ---")
-    for rank, idx in enumerate(top5_indices, 1):
-        subj = df.iloc[idx]['subject']
-        score = sims[idx]
-        print(f"{rank}. [{score*100:.1f}% match] {subj}")
+        centroids_list.append(svd_c.tolist())
 
     # Export artifacts to extension/assets/
     assets_dir = "../extension/assets"
@@ -137,14 +128,15 @@ def train_and_export():
     with open(os.path.join(assets_dir, "idf_weights.json"), "w") as f:
         json.dump(idf_weights, f, indent=2)
 
-    # svd_matrix: (V x k) list of 50-D lists for each word
+    # svd_matrix: (50 x V) list of 50 lists, each length V
     with open(os.path.join(assets_dir, "svd_matrix.json"), "w") as f:
-        json.dump(V_k.tolist(), f, indent=2)
+        json.dump(Vt[:k, :].tolist(), f, indent=2)
 
+    # centroids: list of 4 centroid arrays of length 50
     with open(os.path.join(assets_dir, "centroids.json"), "w") as f:
-        json.dump(centroids, f, indent=2)
+        json.dump(centroids_list, f, indent=2)
 
-    print(f"\nSuccessfully exported all 4 model weight JSON files to: {assets_dir}/")
+    print(f"\nSuccessfully exported model weights to: {assets_dir}/")
 
 if __name__ == "__main__":
     train_and_export()
