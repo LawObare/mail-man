@@ -11,7 +11,12 @@
     <!-- Auth Section -->
     <div class="auth-section">
       <div class="auth-card">
-        <h2>🔐 Gmail Access Required</h2>
+        <h2>
+          <span class="head-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </span>
+          Gmail Access Required
+        </h2>
         <p>Sign in to your Google Account to categorize your live inbox with SVD.</p>
         <button id="signInBtn" class="btn-primary">
           <span class="google-icon">G</span>
@@ -26,45 +31,61 @@
       <!-- Sidebar -->
       <div class="sidebar">
         <div class="sidebar-header">
-          <h2>📬 Inbox SVD</h2>
+          <h2>
+            <span class="head-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>
+            </span>
+            Inbox SVD
+          </h2>
           <span class="live-badge">LIVE</span>
         </div>
-        
+
         <nav class="category-nav">
           <div class="category-item active" data-category="All">
-            <span class="dot dot-all"></span>
+            <span class="cat-icon cat-all">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg>
+            </span>
             All Emails
             <span class="count">0</span>
           </div>
           <div class="category-item" data-category="Education">
-            <span class="dot dot-education"></span>
+            <span class="cat-icon cat-education">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+            </span>
             Education
             <span class="count">0</span>
           </div>
           <div class="category-item" data-category="Work">
-            <span class="dot dot-work"></span>
+            <span class="cat-icon cat-work">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
+            </span>
             Work
             <span class="count">0</span>
           </div>
           <div class="category-item" data-category="Finance">
-            <span class="dot dot-finance"></span>
+            <span class="cat-icon cat-finance">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg>
+            </span>
             Finance
             <span class="count">0</span>
           </div>
           <div class="category-item" data-category="Promotions">
-            <span class="dot dot-promotions"></span>
+            <span class="cat-icon cat-promotions">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+            </span>
             Promotions
             <span class="count">0</span>
           </div>
         </nav>
-        
+
         <div class="custom-categories">
           <button id="addCategoryBtn" class="btn-add-category">
-            ➕ Add Custom Category
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+            Add Custom Category
           </button>
           <div id="customCategoryList"></div>
         </div>
-        
+
         <div class="sidebar-footer">
           <span class="math-badge">50D SVD • Vector Space</span>
         </div>
@@ -76,7 +97,7 @@
           <h3 id="panelTitle">All Emails</h3>
           <span id="emailCount" class="email-count">0 emails</span>
         </div>
-        
+
         <div id="emailList" class="email-list">
           <div class="empty-state">Sign in to see your emails</div>
         </div>

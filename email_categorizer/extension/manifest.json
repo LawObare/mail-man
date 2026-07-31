@@ -4,10 +4,12 @@
   "version": "1.0",
   "description": "Live Gmail Categorizer using OAuth 2.0 and Custom SVD Vector Math",
   "permissions": [
-    "identity"
+    "identity",
+    "storage"
   ],
   "host_permissions": [
-    "https://www.googleapis.com/"
+    "https://www.googleapis.com/*",
+    "https://gmail.googleapis.com/*"
   ],
   "oauth2": {
     "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",

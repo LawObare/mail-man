@@ -53,6 +53,17 @@ body {
   color: #111827;
 }
 
+.head-icon {
+  display: inline-flex;
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+
+.head-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
 .auth-card p {
   font-size: 14px;
   color: #6b7280;
@@ -122,6 +133,11 @@ body {
   color: #111827;
 }
 
+.sidebar-header .head-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
 .live-badge {
   font-size: 10px;
   text-transform: uppercase;
@@ -158,18 +174,22 @@ body {
   font-weight: 500;
 }
 
-.category-item .dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+.category-item .cat-icon {
+  display: inline-flex;
   flex-shrink: 0;
 }
 
-.dot-all { background: #6b7280; }
-.dot-education { background: #8b5cf6; }
-.dot-work { background: #2563eb; }
-.dot-finance { background: #059669; }
-.dot-promotions { background: #f59e0b; }
+.category-item .cat-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.cat-all svg { color: #6b7280; }
+.cat-education svg { color: #8b5cf6; }
+.cat-work svg { color: #2563eb; }
+.cat-finance svg { color: #059669; }
+.cat-promotions svg { color: #f59e0b; }
+.cat-custom svg { color: #6b7280; }
 
 .category-item .count {
   margin-left: auto;
@@ -192,6 +212,14 @@ body {
   font-size: 12px;
   cursor: pointer;
   padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-add-category svg {
+  width: 14px;
+  height: 14px;
 }
 
 .btn-add-category:hover {
@@ -375,6 +403,13 @@ body {
   border-color: #2563eb;
 }
 
+.form-error {
+  color: #dc2626;
+  font-size: 12px;
+  min-height: 16px;
+  margin-bottom: 8px;
+}
+
 .modal-actions {
   display: flex;
   gap: 8px;
@@ -410,13 +445,33 @@ body {
   float: right;
   background: none;
   border: none;
-  font-size: 18px;
   color: #6b7280;
   cursor: pointer;
+  display: inline-flex;
+}
+
+.math-modal .close-btn svg {
+  width: 18px;
+  height: 18px;
 }
 
 .math-modal .close-btn:hover {
   color: #111827;
+}
+
+.assigned-result {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+  color: #2563eb;
+  margin-top: 8px;
+}
+
+.assigned-result svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
 }
 
 .math-section {
