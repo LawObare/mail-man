@@ -23,6 +23,7 @@ let idfWeights = [];
 let svdMatrix = [];
 let customCategories = [];
 let isProcessing = false;
+let demoMode = false;
 
 // ============================================================
 // 1. LOAD WEIGHTS FROM ASSETS
@@ -653,6 +654,8 @@ async function signIn() {
     await processEmails(emails);
     setStatus(statusEl, `${categorizedEmails.length} emails categorized`);
 
+    demoMode = false;
+    updateDemoIndicator();
     showMainContent();
   } catch (error) {
     console.error('Sign in error:', error);
@@ -667,6 +670,52 @@ async function signIn() {
 }
 
 // ============================================================
+// 8b. DEMO MODE - works without any Google OAuth setup
+// ============================================================
+
+async function loadDemoEmails() {
+  const statusEl = document.getElementById('status');
+
+  if (Object.keys(vocab).length === 0 || centroids.length === 0) {
+    setStatus(statusEl, 'Missing model weights. Run the training notebook first.');
+    return;
+  }
+
+  setStatus(statusEl, 'Loading sample emails...');
+
+  try {
+    const resp = await fetch(chrome.runtime.getURL('assets/sample_emails.json'));
+    if (!resp.ok) throw new Error('Sample data missing');
+    const sample = await resp.json();
+
+    const emails = sample.map(e => ({
+      id: e.id,
+      subject: e.subject,
+      from: e.from,
+      body: e.body || '',
+      fullText: e.subject + ' ' + (e.body || '')
+    }));
+
+    await processEmails(emails);
+    demoMode = true;
+    updateDemoIndicator();
+    setStatus(statusEl, `${categorizedEmails.length} sample emails categorized`);
+    showMainContent();
+  } catch (error) {
+    console.error('Demo mode error:', error);
+    setStatus(statusEl, 'Could not load sample emails.');
+  }
+}
+
+function updateDemoIndicator() {
+  const badge = document.querySelector('.live-badge');
+  if (badge) {
+    badge.textContent = demoMode ? 'DEMO' : 'LIVE';
+    badge.classList.toggle('demo', demoMode);
+  }
+}
+
+// ============================================================
 // 9. INITIALIZATION
 // ============================================================
 
@@ -676,6 +725,10 @@ async function init() {
   // Setup sign-in button
   const signInBtn = document.getElementById('signInBtn');
   if (signInBtn) signInBtn.addEventListener('click', signIn);
+
+  // Setup demo mode button
+  const demoBtn = document.getElementById('demoBtn');
+  if (demoBtn) demoBtn.addEventListener('click', loadDemoEmails);
 
   // Setup category filters
   document.querySelectorAll('[data-category]').forEach(el => {

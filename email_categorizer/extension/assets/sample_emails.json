@@ -1,0 +1,602 @@
+[
+  {
+    "id": "email_1",
+    "subject": "CS101: Midterm Exam Schedule and Syllabus Update",
+    "from": "Professor Davis <prof.davis@university.edu>",
+    "body": "Dear students, please note that the CS101 midterm exam has been scheduled for next Thursday. The updated syllabus and lecture slides are now available on the campus student portal. Please review chapters 3 to 6 and submit your homework assignment before Friday midnight."
+  },
+  {
+    "id": "email_2",
+    "subject": "Assignment 3 Grade Released & Office Hours",
+    "from": "TA Sarah Jenkins <sjenkins@cs.university.edu>",
+    "body": "Your grades for assignment 3 have been posted on the course portal. If you have questions about your grade, please drop by my office hours tomorrow between 2 PM and 4 PM at the computer science building."
+  },
+  {
+    "id": "email_3",
+    "subject": "Campus Library Book Return Notice",
+    "from": "University Library System <library@university.edu>",
+    "body": "This is a automated reminder that the book 'Introduction to Linear Algebra' borrowed from the campus main library is due in 3 days. You may renew your loan online through the student portal."
+  },
+  {
+    "id": "email_4",
+    "subject": "University Guest Lecture: Machine Learning in Practice",
+    "from": "Department of Computer Science <events@cs.university.edu>",
+    "body": "Join us this Wednesday for a guest lecture by Dr. Alan Turing on modern latent semantic analysis and SVD applications. The lecture will take place in Auditorium B at 10 AM. All undergraduate and graduate students are welcome."
+  },
+  {
+    "id": "email_5",
+    "subject": "Spring Semester Course Registration Announcement",
+    "from": "University Registrar <registrar@university.edu>",
+    "body": "Registration for the Spring semester opens next week. Please check your student account for any registration holds and consult your academic advisor regarding degree requirements and course selections."
+  },
+  {
+    "id": "email_6",
+    "subject": "Research Assistantship Opportunity in AI Lab",
+    "from": "Prof. Marcus Vance <mvance@ai.university.edu>",
+    "body": "Our laboratory is seeking two undergraduate research assistants for the upcoming semester. Selected candidates will work on text processing algorithms, TF-IDF matrix decomposition, and natural language modeling. Apply with your transcript."
+  },
+  {
+    "id": "email_7",
+    "subject": "Thesis Defense Presentation Announcement",
+    "from": "Graduate Studies Office <grad@university.edu>",
+    "body": "You are invited to the Master's thesis defense presentation by Alex Rivera titled 'Dimensionality Reduction Techniques in Text Vectorization'. The session will be held in Seminar Room 402 on Monday at 3 PM."
+  },
+  {
+    "id": "email_8",
+    "subject": "Lab Report 2 Instructions and Dataset Download",
+    "from": "Physics Lab Coordinator <physics.lab@university.edu>",
+    "body": "Please download the dataset for Lab 2 from the online course repository. Ensure all data analysis plots and error calculations are included in your final laboratory report due next Tuesday."
+  },
+  {
+    "id": "email_9",
+    "subject": "Scholarship Application Deadline Approaching",
+    "from": "Financial Aid Office <finaid@university.edu>",
+    "body": "The deadline for the Academic Excellence Scholarship application is approaching on August 15. Eligible full-time students with a GPA above 3.5 are encouraged to submit their essays and academic references."
+  },
+  {
+    "id": "email_10",
+    "subject": "Departmental Seminar: Matrix Decompositions",
+    "from": "Math Department <math.seminar@university.edu>",
+    "body": "This week's mathematics seminar will cover Singular Value Decomposition, Eigenvalues, and document-term matrix algebra. Abstract and reading materials have been posted to the department notice board."
+  },
+  {
+    "id": "email_11",
+    "subject": "CS101: Midterm Exam Schedule and Syllabus Update [Ref-EDU111]",
+    "from": "Professor Davis <prof.davis@university.edu>",
+    "body": "Dear students, please note that the CS101 midterm exam has been scheduled for next Thursday. The updated syllabus and lecture slides are now available on the campus student portal. Please review chapters 3 to 6 and submit your homework assignment before Friday midnight. (Updated tracking reference #EDU382 for your records)."
+  },
+  {
+    "id": "email_12",
+    "subject": "Assignment 3 Grade Released & Office Hours [Ref-EDU112]",
+    "from": "TA Sarah Jenkins <sjenkins@cs.university.edu>",
+    "body": "Your grades for assignment 3 have been posted on the course portal. If you have questions about your grade, please drop by my office hours tomorrow between 2 PM and 4 PM at the computer science building. (Updated tracking reference #EDU419 for your records)."
+  },
+  {
+    "id": "email_13",
+    "subject": "Campus Library Book Return Notice [Ref-EDU113]",
+    "from": "University Library System <library@university.edu>",
+    "body": "This is a automated reminder that the book 'Introduction to Linear Algebra' borrowed from the campus main library is due in 3 days. You may renew your loan online through the student portal. (Updated tracking reference #EDU456 for your records)."
+  },
+  {
+    "id": "email_14",
+    "subject": "University Guest Lecture: Machine Learning in Practice [Ref-EDU114]",
+    "from": "Department of Computer Science <events@cs.university.edu>",
+    "body": "Join us this Wednesday for a guest lecture by Dr. Alan Turing on modern latent semantic analysis and SVD applications. The lecture will take place in Auditorium B at 10 AM. All undergraduate and graduate students are welcome. (Updated tracking reference #EDU493 for your records)."
+  },
+  {
+    "id": "email_15",
+    "subject": "Spring Semester Course Registration Announcement [Ref-EDU115]",
+    "from": "University Registrar <registrar@university.edu>",
+    "body": "Registration for the Spring semester opens next week. Please check your student account for any registration holds and consult your academic advisor regarding degree requirements and course selections. (Updated tracking reference #EDU530 for your records)."
+  },
+  {
+    "id": "email_16",
+    "subject": "Research Assistantship Opportunity in AI Lab [Ref-EDU116]",
+    "from": "Prof. Marcus Vance <mvance@ai.university.edu>",
+    "body": "Our laboratory is seeking two undergraduate research assistants for the upcoming semester. Selected candidates will work on text processing algorithms, TF-IDF matrix decomposition, and natural language modeling. Apply with your transcript. (Updated tracking reference #EDU567 for your records)."
+  },
+  {
+    "id": "email_17",
+    "subject": "Thesis Defense Presentation Announcement [Ref-EDU117]",
+    "from": "Graduate Studies Office <grad@university.edu>",
+    "body": "You are invited to the Master's thesis defense presentation by Alex Rivera titled 'Dimensionality Reduction Techniques in Text Vectorization'. The session will be held in Seminar Room 402 on Monday at 3 PM. (Updated tracking reference #EDU604 for your records)."
+  },
+  {
+    "id": "email_18",
+    "subject": "Lab Report 2 Instructions and Dataset Download [Ref-EDU118]",
+    "from": "Physics Lab Coordinator <physics.lab@university.edu>",
+    "body": "Please download the dataset for Lab 2 from the online course repository. Ensure all data analysis plots and error calculations are included in your final laboratory report due next Tuesday. (Updated tracking reference #EDU641 for your records)."
+  },
+  {
+    "id": "email_19",
+    "subject": "Scholarship Application Deadline Approaching [Ref-EDU119]",
+    "from": "Financial Aid Office <finaid@university.edu>",
+    "body": "The deadline for the Academic Excellence Scholarship application is approaching on August 15. Eligible full-time students with a GPA above 3.5 are encouraged to submit their essays and academic references. (Updated tracking reference #EDU678 for your records)."
+  },
+  {
+    "id": "email_20",
+    "subject": "Departmental Seminar: Matrix Decompositions [Ref-EDU120]",
+    "from": "Math Department <math.seminar@university.edu>",
+    "body": "This week's mathematics seminar will cover Singular Value Decomposition, Eigenvalues, and document-term matrix algebra. Abstract and reading materials have been posted to the department notice board. (Updated tracking reference #EDU715 for your records)."
+  },
+  {
+    "id": "email_21",
+    "subject": "CS101: Midterm Exam Schedule and Syllabus Update [Ref-EDU121]",
+    "from": "Professor Davis <prof.davis@university.edu>",
+    "body": "Dear students, please note that the CS101 midterm exam has been scheduled for next Thursday. The updated syllabus and lecture slides are now available on the campus student portal. Please review chapters 3 to 6 and submit your homework assignment before Friday midnight. (Updated tracking reference #EDU752 for your records)."
+  },
+  {
+    "id": "email_22",
+    "subject": "Assignment 3 Grade Released & Office Hours [Ref-EDU122]",
+    "from": "TA Sarah Jenkins <sjenkins@cs.university.edu>",
+    "body": "Your grades for assignment 3 have been posted on the course portal. If you have questions about your grade, please drop by my office hours tomorrow between 2 PM and 4 PM at the computer science building. (Updated tracking reference #EDU789 for your records)."
+  },
+  {
+    "id": "email_23",
+    "subject": "Campus Library Book Return Notice [Ref-EDU123]",
+    "from": "University Library System <library@university.edu>",
+    "body": "This is a automated reminder that the book 'Introduction to Linear Algebra' borrowed from the campus main library is due in 3 days. You may renew your loan online through the student portal. (Updated tracking reference #EDU826 for your records)."
+  },
+  {
+    "id": "email_24",
+    "subject": "University Guest Lecture: Machine Learning in Practice [Ref-EDU124]",
+    "from": "Department of Computer Science <events@cs.university.edu>",
+    "body": "Join us this Wednesday for a guest lecture by Dr. Alan Turing on modern latent semantic analysis and SVD applications. The lecture will take place in Auditorium B at 10 AM. All undergraduate and graduate students are welcome. (Updated tracking reference #EDU863 for your records)."
+  },
+  {
+    "id": "email_25",
+    "subject": "Spring Semester Course Registration Announcement [Ref-EDU125]",
+    "from": "University Registrar <registrar@university.edu>",
+    "body": "Registration for the Spring semester opens next week. Please check your student account for any registration holds and consult your academic advisor regarding degree requirements and course selections. (Updated tracking reference #EDU900 for your records)."
+  },
+  {
+    "id": "email_26",
+    "subject": "Q4 Strategic Planning & Team Sync Agenda",
+    "from": "Elena Rostova <elena.rostova@company.corp>",
+    "body": "Hi Team, please find attached the agenda for our Q4 strategic planning meeting tomorrow at 10 AM. We will review project timelines, resource allocation, client feedback, and key performance indicators. Please update your status slides."
+  },
+  {
+    "id": "email_27",
+    "subject": "Invoice #4892 Approval Request - Acme Corp",
+    "from": "Finance Operations <billing@company.corp>",
+    "body": "Please review and approve vendor invoice #4892 from Acme Corp for Q3 software license fees ($4,500.00). Once approved, the payment will be scheduled for processing by the accounts payable team."
+  },
+  {
+    "id": "email_28",
+    "subject": "Project Sprint Review and Deliverables Update",
+    "from": "David Kim <dkim@company.corp>",
+    "body": "Our bi-weekly sprint review meeting is scheduled for 3 PM today. We will demonstrate the new client portal features, discuss sprint velocity, and outline deliverables for the next two weeks."
+  },
+  {
+    "id": "email_29",
+    "subject": "Client Proposal Review - Global Logistics Account",
+    "from": "Rachel Green <rgreen@company.corp>",
+    "body": "I have updated the client pitch deck and service level contract for the Global Logistics account proposal. Please review the pricing schedule and project scope before our meeting with their executive director."
+  },
+  {
+    "id": "email_30",
+    "subject": "Weekly Team Status Meeting & Action Items",
+    "from": "Michael Scott <mscott@company.corp>",
+    "body": "Here is a summary of action items from today's team status meeting: 1. Finalize product specs by Wednesday. 2. Schedule client call with engineering leads. 3. Review Q4 budget allocation with management."
+  },
+  {
+    "id": "email_31",
+    "subject": "Urgent: API Integration Deadline Extension",
+    "from": "Senior Systems Architect <architecture@company.corp>",
+    "body": "Due to infrastructure maintenance over the weekend, the deadline for the microservice API integration has been extended to Monday 5 PM. Please notify your engineering sub-teams accordingly."
+  },
+  {
+    "id": "email_32",
+    "subject": "Performance Review Schedule for H2",
+    "from": "Human Resources <hr@company.corp>",
+    "body": "Mid-year performance reviews for H2 will commence next month. Employees should complete their self-evaluations and manager alignment feedback forms in the HR portal by the end of the week."
+  },
+  {
+    "id": "email_33",
+    "subject": "Quarterly OKR Review & Metrics Overview",
+    "from": "Executive Operations <exec@company.corp>",
+    "body": "Our Q3 OKR results are in! Join our company-wide town hall meeting this Thursday as executive leadership presents revenue metrics, product delivery milestones, and customer retention highlights."
+  },
+  {
+    "id": "email_34",
+    "subject": "Contract Draft for Vendor Services - Review Needed",
+    "from": "Legal Counsel <legal@company.corp>",
+    "body": "Attached is the draft Master Services Agreement for our new cloud infrastructure vendor. Please provide feedback on clause 8 regarding data security and intellectual property by Thursday afternoon."
+  },
+  {
+    "id": "email_35",
+    "subject": "Design System Guidelines Update",
+    "from": "UX Lead Designer <ux@company.corp>",
+    "body": "We have updated our internal component design system guidelines. All frontend developers should refer to the new typography standards, muted color tokens, and border specifications for upcoming UI releases."
+  },
+  {
+    "id": "email_36",
+    "subject": "Q4 Strategic Planning & Team Sync Agenda [Ref-WRK111]",
+    "from": "Elena Rostova <elena.rostova@company.corp>",
+    "body": "Hi Team, please find attached the agenda for our Q4 strategic planning meeting tomorrow at 10 AM. We will review project timelines, resource allocation, client feedback, and key performance indicators. Please update your status slides. (Updated tracking reference #WRK382 for your records)."
+  },
+  {
+    "id": "email_37",
+    "subject": "Invoice #4892 Approval Request - Acme Corp [Ref-WRK112]",
+    "from": "Finance Operations <billing@company.corp>",
+    "body": "Please review and approve vendor invoice #4892 from Acme Corp for Q3 software license fees ($4,500.00). Once approved, the payment will be scheduled for processing by the accounts payable team. (Updated tracking reference #WRK419 for your records)."
+  },
+  {
+    "id": "email_38",
+    "subject": "Project Sprint Review and Deliverables Update [Ref-WRK113]",
+    "from": "David Kim <dkim@company.corp>",
+    "body": "Our bi-weekly sprint review meeting is scheduled for 3 PM today. We will demonstrate the new client portal features, discuss sprint velocity, and outline deliverables for the next two weeks. (Updated tracking reference #WRK456 for your records)."
+  },
+  {
+    "id": "email_39",
+    "subject": "Client Proposal Review - Global Logistics Account [Ref-WRK114]",
+    "from": "Rachel Green <rgreen@company.corp>",
+    "body": "I have updated the client pitch deck and service level contract for the Global Logistics account proposal. Please review the pricing schedule and project scope before our meeting with their executive director. (Updated tracking reference #WRK493 for your records)."
+  },
+  {
+    "id": "email_40",
+    "subject": "Weekly Team Status Meeting & Action Items [Ref-WRK115]",
+    "from": "Michael Scott <mscott@company.corp>",
+    "body": "Here is a summary of action items from today's team status meeting: 1. Finalize product specs by Wednesday. 2. Schedule client call with engineering leads. 3. Review Q4 budget allocation with management. (Updated tracking reference #WRK530 for your records)."
+  },
+  {
+    "id": "email_41",
+    "subject": "Urgent: API Integration Deadline Extension [Ref-WRK116]",
+    "from": "Senior Systems Architect <architecture@company.corp>",
+    "body": "Due to infrastructure maintenance over the weekend, the deadline for the microservice API integration has been extended to Monday 5 PM. Please notify your engineering sub-teams accordingly. (Updated tracking reference #WRK567 for your records)."
+  },
+  {
+    "id": "email_42",
+    "subject": "Performance Review Schedule for H2 [Ref-WRK117]",
+    "from": "Human Resources <hr@company.corp>",
+    "body": "Mid-year performance reviews for H2 will commence next month. Employees should complete their self-evaluations and manager alignment feedback forms in the HR portal by the end of the week. (Updated tracking reference #WRK604 for your records)."
+  },
+  {
+    "id": "email_43",
+    "subject": "Quarterly OKR Review & Metrics Overview [Ref-WRK118]",
+    "from": "Executive Operations <exec@company.corp>",
+    "body": "Our Q3 OKR results are in! Join our company-wide town hall meeting this Thursday as executive leadership presents revenue metrics, product delivery milestones, and customer retention highlights. (Updated tracking reference #WRK641 for your records)."
+  },
+  {
+    "id": "email_44",
+    "subject": "Contract Draft for Vendor Services - Review Needed [Ref-WRK119]",
+    "from": "Legal Counsel <legal@company.corp>",
+    "body": "Attached is the draft Master Services Agreement for our new cloud infrastructure vendor. Please provide feedback on clause 8 regarding data security and intellectual property by Thursday afternoon. (Updated tracking reference #WRK678 for your records)."
+  },
+  {
+    "id": "email_45",
+    "subject": "Design System Guidelines Update [Ref-WRK120]",
+    "from": "UX Lead Designer <ux@company.corp>",
+    "body": "We have updated our internal component design system guidelines. All frontend developers should refer to the new typography standards, muted color tokens, and border specifications for upcoming UI releases. (Updated tracking reference #WRK715 for your records)."
+  },
+  {
+    "id": "email_46",
+    "subject": "Q4 Strategic Planning & Team Sync Agenda [Ref-WRK121]",
+    "from": "Elena Rostova <elena.rostova@company.corp>",
+    "body": "Hi Team, please find attached the agenda for our Q4 strategic planning meeting tomorrow at 10 AM. We will review project timelines, resource allocation, client feedback, and key performance indicators. Please update your status slides. (Updated tracking reference #WRK752 for your records)."
+  },
+  {
+    "id": "email_47",
+    "subject": "Invoice #4892 Approval Request - Acme Corp [Ref-WRK122]",
+    "from": "Finance Operations <billing@company.corp>",
+    "body": "Please review and approve vendor invoice #4892 from Acme Corp for Q3 software license fees ($4,500.00). Once approved, the payment will be scheduled for processing by the accounts payable team. (Updated tracking reference #WRK789 for your records)."
+  },
+  {
+    "id": "email_48",
+    "subject": "Project Sprint Review and Deliverables Update [Ref-WRK123]",
+    "from": "David Kim <dkim@company.corp>",
+    "body": "Our bi-weekly sprint review meeting is scheduled for 3 PM today. We will demonstrate the new client portal features, discuss sprint velocity, and outline deliverables for the next two weeks. (Updated tracking reference #WRK826 for your records)."
+  },
+  {
+    "id": "email_49",
+    "subject": "Client Proposal Review - Global Logistics Account [Ref-WRK124]",
+    "from": "Rachel Green <rgreen@company.corp>",
+    "body": "I have updated the client pitch deck and service level contract for the Global Logistics account proposal. Please review the pricing schedule and project scope before our meeting with their executive director. (Updated tracking reference #WRK863 for your records)."
+  },
+  {
+    "id": "email_50",
+    "subject": "Weekly Team Status Meeting & Action Items [Ref-WRK125]",
+    "from": "Michael Scott <mscott@company.corp>",
+    "body": "Here is a summary of action items from today's team status meeting: 1. Finalize product specs by Wednesday. 2. Schedule client call with engineering leads. 3. Review Q4 budget allocation with management. (Updated tracking reference #WRK900 for your records)."
+  },
+  {
+    "id": "email_51",
+    "subject": "Account Balance Alert & Transaction Summary",
+    "from": "First National Bank <alerts@firstbank.com>",
+    "body": "Your account balance as of July 31 is $14,250.80. A recent credit transaction of $1,250.00 was posted to your checking account. Log in to online banking to review your complete transaction history."
+  },
+  {
+    "id": "email_52",
+    "subject": "Monthly Credit Card Statement Available",
+    "from": "Apex Credit Services <statements@apexcredit.com>",
+    "body": "Your monthly credit card statement for statement period ending July 28 is now available online. Minimum payment due: $150.00 on August 20. View details, interest charges, and mortgage loan balance online."
+  },
+  {
+    "id": "email_53",
+    "subject": "Stock Portfolio Performance & Dividend Report",
+    "from": "Vanguard Wealth Management <investments@vanguardwealth.com>",
+    "body": "Your quarterly investment portfolio summary shows a return of +4.2%. Dividend payments totaling $320.50 were reinvested into your index fund portfolio on July 15. Check your tax documents online."
+  },
+  {
+    "id": "email_54",
+    "subject": "Mortgage Interest Rate Adjustment Notice",
+    "from": "Home Loan Financial <servicing@homeloanfin.com>",
+    "body": "Important notice regarding mortgage loan #992810. Your annual escrow analysis has been completed. Your monthly mortgage escrow payment will adjust by $24.50 starting next month. Details attached."
+  },
+  {
+    "id": "email_55",
+    "subject": "Wire Transfer Confirmation - Ref #TX-88391",
+    "from": "Global Settlement Services <wire@settlementbank.com>",
+    "body": "We confirm that outgoing wire transfer TX-88391 in the amount of $5,000.00 has been processed successfully to beneficiary account ending in 4412. Transaction fees: $15.00."
+  },
+  {
+    "id": "email_56",
+    "subject": "Tax Form 1099-INT Ready for Download",
+    "from": "Capital Trust Bank <tax@capitaltrust.com>",
+    "body": "Your 1099-INT interest income tax form for the previous tax year is now ready in your secure document vault. Please download this form for your annual income tax filing."
+  },
+  {
+    "id": "email_57",
+    "subject": "Suspicious Activity Alert - Action Required",
+    "from": "Security & Fraud Dept <fraud-prevention@cardsecurity.com>",
+    "body": "We detected an unusual debit card transaction of $499.99 at an online merchant. If you authorized this transaction, reply YES. If not, reply NO immediately to lock your card and prevent unauthorized charges."
+  },
+  {
+    "id": "email_58",
+    "subject": "Automated Bill Payment Notice",
+    "from": "Utility Electric Company <billing@utilityelectric.com>",
+    "body": "Your monthly electric bill of $112.45 will be automatically debited from your checking account on August 5 under reference AUTO-PAY-9812. No action is required."
+  },
+  {
+    "id": "email_59",
+    "subject": "High-Yield Savings Rate Increase Notice",
+    "from": "Horizon Bank Direct <info@horizonbank.com>",
+    "body": "Great news! We have increased the annual percentage yield (APY) on your High-Yield Savings Account to 4.85%. Your interest will continue to compound monthly on your total balance."
+  },
+  {
+    "id": "email_60",
+    "subject": "Loan Payment Received & Account Summary",
+    "from": "Auto Finance Corp <payments@autofinance.com>",
+    "body": "Thank you for your payment of $385.00 received on July 30. Remaining principal balance on auto loan #44102: $8,420.00. Principal breakdown and interest charges are available online."
+  },
+  {
+    "id": "email_61",
+    "subject": "Account Balance Alert & Transaction Summary [Ref-FIN111]",
+    "from": "First National Bank <alerts@firstbank.com>",
+    "body": "Your account balance as of July 31 is $14,250.80. A recent credit transaction of $1,250.00 was posted to your checking account. Log in to online banking to review your complete transaction history. (Updated tracking reference #FIN382 for your records)."
+  },
+  {
+    "id": "email_62",
+    "subject": "Monthly Credit Card Statement Available [Ref-FIN112]",
+    "from": "Apex Credit Services <statements@apexcredit.com>",
+    "body": "Your monthly credit card statement for statement period ending July 28 is now available online. Minimum payment due: $150.00 on August 20. View details, interest charges, and mortgage loan balance online. (Updated tracking reference #FIN419 for your records)."
+  },
+  {
+    "id": "email_63",
+    "subject": "Stock Portfolio Performance & Dividend Report [Ref-FIN113]",
+    "from": "Vanguard Wealth Management <investments@vanguardwealth.com>",
+    "body": "Your quarterly investment portfolio summary shows a return of +4.2%. Dividend payments totaling $320.50 were reinvested into your index fund portfolio on July 15. Check your tax documents online. (Updated tracking reference #FIN456 for your records)."
+  },
+  {
+    "id": "email_64",
+    "subject": "Mortgage Interest Rate Adjustment Notice [Ref-FIN114]",
+    "from": "Home Loan Financial <servicing@homeloanfin.com>",
+    "body": "Important notice regarding mortgage loan #992810. Your annual escrow analysis has been completed. Your monthly mortgage escrow payment will adjust by $24.50 starting next month. Details attached. (Updated tracking reference #FIN493 for your records)."
+  },
+  {
+    "id": "email_65",
+    "subject": "Wire Transfer Confirmation - Ref #TX-88391 [Ref-FIN115]",
+    "from": "Global Settlement Services <wire@settlementbank.com>",
+    "body": "We confirm that outgoing wire transfer TX-88391 in the amount of $5,000.00 has been processed successfully to beneficiary account ending in 4412. Transaction fees: $15.00. (Updated tracking reference #FIN530 for your records)."
+  },
+  {
+    "id": "email_66",
+    "subject": "Tax Form 1099-INT Ready for Download [Ref-FIN116]",
+    "from": "Capital Trust Bank <tax@capitaltrust.com>",
+    "body": "Your 1099-INT interest income tax form for the previous tax year is now ready in your secure document vault. Please download this form for your annual income tax filing. (Updated tracking reference #FIN567 for your records)."
+  },
+  {
+    "id": "email_67",
+    "subject": "Suspicious Activity Alert - Action Required [Ref-FIN117]",
+    "from": "Security & Fraud Dept <fraud-prevention@cardsecurity.com>",
+    "body": "We detected an unusual debit card transaction of $499.99 at an online merchant. If you authorized this transaction, reply YES. If not, reply NO immediately to lock your card and prevent unauthorized charges. (Updated tracking reference #FIN604 for your records)."
+  },
+  {
+    "id": "email_68",
+    "subject": "Automated Bill Payment Notice [Ref-FIN118]",
+    "from": "Utility Electric Company <billing@utilityelectric.com>",
+    "body": "Your monthly electric bill of $112.45 will be automatically debited from your checking account on August 5 under reference AUTO-PAY-9812. No action is required. (Updated tracking reference #FIN641 for your records)."
+  },
+  {
+    "id": "email_69",
+    "subject": "High-Yield Savings Rate Increase Notice [Ref-FIN119]",
+    "from": "Horizon Bank Direct <info@horizonbank.com>",
+    "body": "Great news! We have increased the annual percentage yield (APY) on your High-Yield Savings Account to 4.85%. Your interest will continue to compound monthly on your total balance. (Updated tracking reference #FIN678 for your records)."
+  },
+  {
+    "id": "email_70",
+    "subject": "Loan Payment Received & Account Summary [Ref-FIN120]",
+    "from": "Auto Finance Corp <payments@autofinance.com>",
+    "body": "Thank you for your payment of $385.00 received on July 30. Remaining principal balance on auto loan #44102: $8,420.00. Principal breakdown and interest charges are available online. (Updated tracking reference #FIN715 for your records)."
+  },
+  {
+    "id": "email_71",
+    "subject": "Account Balance Alert & Transaction Summary [Ref-FIN121]",
+    "from": "First National Bank <alerts@firstbank.com>",
+    "body": "Your account balance as of July 31 is $14,250.80. A recent credit transaction of $1,250.00 was posted to your checking account. Log in to online banking to review your complete transaction history. (Updated tracking reference #FIN752 for your records)."
+  },
+  {
+    "id": "email_72",
+    "subject": "Monthly Credit Card Statement Available [Ref-FIN122]",
+    "from": "Apex Credit Services <statements@apexcredit.com>",
+    "body": "Your monthly credit card statement for statement period ending July 28 is now available online. Minimum payment due: $150.00 on August 20. View details, interest charges, and mortgage loan balance online. (Updated tracking reference #FIN789 for your records)."
+  },
+  {
+    "id": "email_73",
+    "subject": "Stock Portfolio Performance & Dividend Report [Ref-FIN123]",
+    "from": "Vanguard Wealth Management <investments@vanguardwealth.com>",
+    "body": "Your quarterly investment portfolio summary shows a return of +4.2%. Dividend payments totaling $320.50 were reinvested into your index fund portfolio on July 15. Check your tax documents online. (Updated tracking reference #FIN826 for your records)."
+  },
+  {
+    "id": "email_74",
+    "subject": "Mortgage Interest Rate Adjustment Notice [Ref-FIN124]",
+    "from": "Home Loan Financial <servicing@homeloanfin.com>",
+    "body": "Important notice regarding mortgage loan #992810. Your annual escrow analysis has been completed. Your monthly mortgage escrow payment will adjust by $24.50 starting next month. Details attached. (Updated tracking reference #FIN863 for your records)."
+  },
+  {
+    "id": "email_75",
+    "subject": "Wire Transfer Confirmation - Ref #TX-88391 [Ref-FIN125]",
+    "from": "Global Settlement Services <wire@settlementbank.com>",
+    "body": "We confirm that outgoing wire transfer TX-88391 in the amount of $5,000.00 has been processed successfully to beneficiary account ending in 4412. Transaction fees: $15.00. (Updated tracking reference #FIN900 for your records)."
+  },
+  {
+    "id": "email_76",
+    "subject": "Exclusive 50% Off Summer Flash Sale!",
+    "from": "Fashion Style Store <deals@fashionstyle.com>",
+    "body": "Don't miss our summer clearance event! Enjoy up to 50% off select apparel, shoes, and accessories. Use promo code SUMMER50 at checkout to unlock free shipping on orders over $50. Limited time offer!"
+  },
+  {
+    "id": "email_77",
+    "subject": "Weekly Newsletter: Top Tech Deals & Coupon Codes",
+    "from": "Tech Gadgets Insider <newsletter@techgadgets.com>",
+    "body": "In this week's newsletter: Save $200 on noise-canceling headphones, exclusive discount coupons for smart watches, and clearance prices on laptops! Click to claim your exclusive subscriber discount code."
+  },
+  {
+    "id": "email_78",
+    "subject": "Buy One, Get One Free on All Books This Weekend",
+    "from": "City Bookshop <promotions@citybookshop.com>",
+    "body": "Special weekend promotion for book lovers! Buy one bestseller and get a second book of equal or lesser value completely free. Plus, earn double reward points on all online purchases."
+  },
+  {
+    "id": "email_79",
+    "subject": "Your $15 Reward Voucher is Waiting!",
+    "from": "Rewards Club Operations <rewards@retailclub.com>",
+    "body": "You have earned a $15 VIP reward voucher! Redeem your discount points online or in-store on any order of $40 or more before it expires at the end of the month. Shop now and save!"
+  },
+  {
+    "id": "email_80",
+    "subject": "Flash Sale: 24 Hours Only - 30% Off Storewide",
+    "from": "Home Decor Outlet <sales@homedecor.com>",
+    "body": "Hurry! Our 24-hour flash sale starts right now. Save 30% on kitchenware, furniture, bedding, and home accents. Enter coupon FLASH30 at checkout. Discount automatically applied."
+  },
+  {
+    "id": "email_81",
+    "subject": "New Fall Collection Arrival & Member Early Access",
+    "from": "Urban Apparel <vip@urbanapparel.com>",
+    "body": "As a valued loyalty member, you get exclusive early access to our new Fall Collection! Enjoy 20% off all new arrivals when you shop before midnight tonight using your member account."
+  },
+  {
+    "id": "email_82",
+    "subject": "Clearance Blowout: Prices Slashed Up To 70%",
+    "from": "Electronics World <clearance@electronicsworld.com>",
+    "body": "Massive warehouse clearance blowout! We are clearing inventory with prices slashed up to 70% off retail value. Free shipping on all orders. Shop limited quantities while supplies last!"
+  },
+  {
+    "id": "email_83",
+    "subject": "Special Offer: Upgrade Your Plan & Get 3 Months Free",
+    "from": "Cloud Stream Plus <offers@cloudstream.com>",
+    "body": "Upgrade your streaming subscription to Premium HD today and receive 3 months completely free! Enjoy unlimited movie downloads, no advertisements, and exclusive original series."
+  },
+  {
+    "id": "email_84",
+    "subject": "Weekend Special: Save Big on Dining & Delivery",
+    "from": "Quick Eats App <promo@quickeats.com>",
+    "body": "Hungry? Take $10 off your food delivery order of $25 or more this weekend with promo code EATS10. Discover top local restaurants with zero delivery fees for premium members."
+  },
+  {
+    "id": "email_85",
+    "subject": "Subscriber Discount: Final Hours to Save 40%",
+    "from": "Outdoor Adventure Gear <news@outdoorgear.com>",
+    "body": "Final hours! Your subscriber discount coupon is expiring soon. Take 40% off camping equipment, hiking boots, and outdoor jackets. Don't wait\u2014shop the sale before prices go back up."
+  },
+  {
+    "id": "email_86",
+    "subject": "Exclusive 50% Off Summer Flash Sale! [Ref-PRM111]",
+    "from": "Fashion Style Store <deals@fashionstyle.com>",
+    "body": "Don't miss our summer clearance event! Enjoy up to 50% off select apparel, shoes, and accessories. Use promo code SUMMER50 at checkout to unlock free shipping on orders over $50. Limited time offer! (Updated tracking reference #PRM382 for your records)."
+  },
+  {
+    "id": "email_87",
+    "subject": "Weekly Newsletter: Top Tech Deals & Coupon Codes [Ref-PRM112]",
+    "from": "Tech Gadgets Insider <newsletter@techgadgets.com>",
+    "body": "In this week's newsletter: Save $200 on noise-canceling headphones, exclusive discount coupons for smart watches, and clearance prices on laptops! Click to claim your exclusive subscriber discount code. (Updated tracking reference #PRM419 for your records)."
+  },
+  {
+    "id": "email_88",
+    "subject": "Buy One, Get One Free on All Books This Weekend [Ref-PRM113]",
+    "from": "City Bookshop <promotions@citybookshop.com>",
+    "body": "Special weekend promotion for book lovers! Buy one bestseller and get a second book of equal or lesser value completely free. Plus, earn double reward points on all online purchases. (Updated tracking reference #PRM456 for your records)."
+  },
+  {
+    "id": "email_89",
+    "subject": "Your $15 Reward Voucher is Waiting! [Ref-PRM114]",
+    "from": "Rewards Club Operations <rewards@retailclub.com>",
+    "body": "You have earned a $15 VIP reward voucher! Redeem your discount points online or in-store on any order of $40 or more before it expires at the end of the month. Shop now and save! (Updated tracking reference #PRM493 for your records)."
+  },
+  {
+    "id": "email_90",
+    "subject": "Flash Sale: 24 Hours Only - 30% Off Storewide [Ref-PRM115]",
+    "from": "Home Decor Outlet <sales@homedecor.com>",
+    "body": "Hurry! Our 24-hour flash sale starts right now. Save 30% on kitchenware, furniture, bedding, and home accents. Enter coupon FLASH30 at checkout. Discount automatically applied. (Updated tracking reference #PRM530 for your records)."
+  },
+  {
+    "id": "email_91",
+    "subject": "New Fall Collection Arrival & Member Early Access [Ref-PRM116]",
+    "from": "Urban Apparel <vip@urbanapparel.com>",
+    "body": "As a valued loyalty member, you get exclusive early access to our new Fall Collection! Enjoy 20% off all new arrivals when you shop before midnight tonight using your member account. (Updated tracking reference #PRM567 for your records)."
+  },
+  {
+    "id": "email_92",
+    "subject": "Clearance Blowout: Prices Slashed Up To 70% [Ref-PRM117]",
+    "from": "Electronics World <clearance@electronicsworld.com>",
+    "body": "Massive warehouse clearance blowout! We are clearing inventory with prices slashed up to 70% off retail value. Free shipping on all orders. Shop limited quantities while supplies last! (Updated tracking reference #PRM604 for your records)."
+  },
+  {
+    "id": "email_93",
+    "subject": "Special Offer: Upgrade Your Plan & Get 3 Months Free [Ref-PRM118]",
+    "from": "Cloud Stream Plus <offers@cloudstream.com>",
+    "body": "Upgrade your streaming subscription to Premium HD today and receive 3 months completely free! Enjoy unlimited movie downloads, no advertisements, and exclusive original series. (Updated tracking reference #PRM641 for your records)."
+  },
+  {
+    "id": "email_94",
+    "subject": "Weekend Special: Save Big on Dining & Delivery [Ref-PRM119]",
+    "from": "Quick Eats App <promo@quickeats.com>",
+    "body": "Hungry? Take $10 off your food delivery order of $25 or more this weekend with promo code EATS10. Discover top local restaurants with zero delivery fees for premium members. (Updated tracking reference #PRM678 for your records)."
+  },
+  {
+    "id": "email_95",
+    "subject": "Subscriber Discount: Final Hours to Save 40% [Ref-PRM120]",
+    "from": "Outdoor Adventure Gear <news@outdoorgear.com>",
+    "body": "Final hours! Your subscriber discount coupon is expiring soon. Take 40% off camping equipment, hiking boots, and outdoor jackets. Don't wait\u2014shop the sale before prices go back up. (Updated tracking reference #PRM715 for your records)."
+  },
+  {
+    "id": "email_96",
+    "subject": "Exclusive 50% Off Summer Flash Sale! [Ref-PRM121]",
+    "from": "Fashion Style Store <deals@fashionstyle.com>",
+    "body": "Don't miss our summer clearance event! Enjoy up to 50% off select apparel, shoes, and accessories. Use promo code SUMMER50 at checkout to unlock free shipping on orders over $50. Limited time offer! (Updated tracking reference #PRM752 for your records)."
+  },
+  {
+    "id": "email_97",
+    "subject": "Weekly Newsletter: Top Tech Deals & Coupon Codes [Ref-PRM122]",
+    "from": "Tech Gadgets Insider <newsletter@techgadgets.com>",
+    "body": "In this week's newsletter: Save $200 on noise-canceling headphones, exclusive discount coupons for smart watches, and clearance prices on laptops! Click to claim your exclusive subscriber discount code. (Updated tracking reference #PRM789 for your records)."
+  },
+  {
+    "id": "email_98",
+    "subject": "Buy One, Get One Free on All Books This Weekend [Ref-PRM123]",
+    "from": "City Bookshop <promotions@citybookshop.com>",
+    "body": "Special weekend promotion for book lovers! Buy one bestseller and get a second book of equal or lesser value completely free. Plus, earn double reward points on all online purchases. (Updated tracking reference #PRM826 for your records)."
+  },
+  {
+    "id": "email_99",
+    "subject": "Your $15 Reward Voucher is Waiting! [Ref-PRM124]",
+    "from": "Rewards Club Operations <rewards@retailclub.com>",
+    "body": "You have earned a $15 VIP reward voucher! Redeem your discount points online or in-store on any order of $40 or more before it expires at the end of the month. Shop now and save! (Updated tracking reference #PRM863 for your records)."
+  },
+  {
+    "id": "email_100",
+    "subject": "Flash Sale: 24 Hours Only - 30% Off Storewide [Ref-PRM125]",
+    "from": "Home Decor Outlet <sales@homedecor.com>",
+    "body": "Hurry! Our 24-hour flash sale starts right now. Save 30% on kitchenware, furniture, bedding, and home accents. Enter coupon FLASH30 at checkout. Discount automatically applied. (Updated tracking reference #PRM900 for your records)."
+  }
+]

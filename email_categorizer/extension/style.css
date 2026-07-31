@@ -90,6 +90,56 @@ body {
   border-color: #2563eb;
 }
 
+.or-divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0 12px 0;
+  color: #9ca3af;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e2e8f0;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d4ed8;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-secondary:hover {
+  background: #dbeafe;
+  border-color: #2563eb;
+}
+
+.btn-secondary svg {
+  width: 14px;
+  height: 14px;
+}
+
+.demo-note {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 12px;
+}
+
 .google-icon {
   display: inline-block;
   width: 18px;
@@ -146,6 +196,11 @@ body {
   padding: 2px 8px;
   border-radius: 2px;
   font-weight: 500;
+}
+
+.live-badge.demo {
+  background: #fef3c7;
+  color: #92400e;
 }
 
 .category-nav {
