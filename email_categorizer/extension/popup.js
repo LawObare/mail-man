@@ -9,7 +9,10 @@ const ICONS = {
   plus: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>',
   x: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>',
   calculator: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>',
-  check: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+  graduationCap: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>',
+  briefcase: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>',
+  wallet: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg>',
+  megaphone: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>',
   tag: '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg>'
 };
 
@@ -560,13 +563,17 @@ function showMathVisualizer(email) {
   const overlay = document.createElement('div');
   overlay.className = 'modal-overlay';
 
-  const scoresHtml = (email.allScores || []).map(s => `
+  const scores = email.allScores || [];
+  const style = categoryStyle(email.category);
+  const confidencePercent = Math.round(clamp01(email.confidence) * 100);
+
+  const scoresHtml = scores.map(s => `
     <div class="score-row">
       <span class="score-label">${escapeHtml(s.label)}</span>
       <div class="score-bar-bg">
-        <div class="score-bar-fill" style="width: ${Math.round(s.score * 100)}%; background: ${s.label === email.category ? '#2563eb' : '#e5e7eb'}"></div>
+        <div class="score-bar-fill" style="width: ${Math.round(clamp01(s.score) * 100)}%; background: ${s.label === email.category ? style.color : '#e5e7eb'}"></div>
       </div>
-      <span class="score-value">${(s.score * 100).toFixed(1)}%</span>
+      <span class="score-value">${(clamp01(s.score) * 100).toFixed(1)}%</span>
     </div>
   `).join('');
 
@@ -575,33 +582,50 @@ function showMathVisualizer(email) {
       <button class="close-btn" id="closeMath" aria-label="Close">${ICONS.x}</button>
       <h2><span class="head-icon">${ICONS.calculator}</span>Math Visualizer</h2>
 
-      <div class="math-section">
-        <h4>Step 1: TF-IDF Vector</h4>
-        <div class="math-equation">TF(t,d) = log(1 + count<sub>t,d</sub>)</div>
-        <div class="math-equation">IDF(t) = log((N + 1) / (df<sub>t</sub> + 1)) + 1</div>
-        <div class="math-result">Vocabulary size: ${Object.keys(vocab).length} unique terms</div>
-      </div>
-
-      <div class="math-section">
-        <h4>Step 2: SVD Projection</h4>
-        <div class="math-equation">v<sub>email</sub> = Σ w<sub>i</sub> · SVD<sub>i</sub></div>
-        <div class="math-result">Projected to 50-dimensional latent SVD space</div>
-        <div class="math-result">Vector L2 norm: ${email.vector ? (Math.sqrt(email.vector.reduce((s, v) => s + v*v, 0))).toFixed(4) : '1.0000'}</div>
-      </div>
-
-      <div class="math-section">
-        <h4>Step 3: Cosine Similarity</h4>
-        <div class="math-equation">cos(θ) = (u · v) / (||u|| × ||v||)</div>
-        <div class="math-result">Similarity scores across category centroids:</div>
-        <div class="scores-container">${scoresHtml}</div>
-        <div class="assigned-result">
-          ${ICONS.check}
-          <span>Assigned Category: ${escapeHtml(email.category)} (${Math.round(email.confidence * 100)}% match)</span>
+      <div class="winner-card" style="border-left-color:${style.color}">
+        <span class="winner-icon" style="color:${style.color}">${style.icon}</span>
+        <div>
+          <div class="winner-label">Assigned category</div>
+          <div class="winner-name">${escapeHtml(email.category)}</div>
+        </div>
+        <div class="winner-conf">
+          <span class="pct" style="color:${style.color}">${confidencePercent}% match</span>
+          <div class="gauge">
+            <div class="gauge-fill" style="width:${confidencePercent}%; background:${style.color}"></div>
+          </div>
         </div>
       </div>
 
       <div class="math-section">
-        <h4>Email Source Preview</h4>
+        <h4>How close is this email to each category?</h4>
+        <div class="radar-wrap">
+          <div class="radar-chart">${buildRadarChart(scores)}</div>
+        </div>
+        <div class="scores-container">${scoresHtml}</div>
+      </div>
+
+      <div class="math-section">
+        <h4>What happened, in plain words</h4>
+        <ol class="plain-steps">
+          <li><span class="step-num">1</span> The email's words are read and the meaningful ones are kept.</li>
+          <li><span class="step-num">2</span> The email is placed in the same space the model learned from sample emails.</li>
+          <li><span class="step-num">3</span> Its distance to every category is measured and the closest one wins.</li>
+        </ol>
+        <details class="math-details">
+          <summary>Show the math</summary>
+          <div class="math-sub">
+            <div class="math-equation">TF(t,d) = log(1 + count<sub>t,d</sub>)</div>
+            <div class="math-equation">IDF(t) = log((N + 1) / (df<sub>t</sub> + 1)) + 1</div>
+            <div class="math-equation">v<sub>email</sub> = Σ w<sub>i</sub> · SVD<sub>i</sub></div>
+            <div class="math-equation">cos(θ) = (u · v) / (||u|| × ||v||)</div>
+            <div class="math-result">Vocabulary size: ${Object.keys(vocab).length} unique terms</div>
+            <div class="math-result">Vector L2 norm: ${email.vector ? (Math.sqrt(email.vector.reduce((s, v) => s + v*v, 0))).toFixed(4) : '1.0000'}</div>
+          </div>
+        </details>
+      </div>
+
+      <div class="math-section">
+        <h4>Email source preview</h4>
         <div class="email-preview">
           <strong>From:</strong> ${escapeHtml(email.from)}<br>
           <strong>Subject:</strong> ${escapeHtml(email.subject)}<br>
@@ -617,6 +641,68 @@ function showMathVisualizer(email) {
   overlay.onclick = (e) => {
     if (e.target === overlay) overlay.remove();
   };
+}
+
+// Plain-language helpers for the visualizer --------------------------------
+
+function clamp01(value) {
+  return Math.max(0, Math.min(1, value));
+}
+
+const CATEGORY_STYLE = {
+  Education: { color: '#8b5cf6', icon: ICONS.graduationCap },
+  Work: { color: '#2563eb', icon: ICONS.briefcase },
+  Finance: { color: '#059669', icon: ICONS.wallet },
+  Promotions: { color: '#f59e0b', icon: ICONS.megaphone }
+};
+
+function categoryStyle(name) {
+  return CATEGORY_STYLE[name] || { color: '#6b7280', icon: ICONS.tag };
+}
+
+function buildRadarChart(scores) {
+  const width = 280, height = 236, cx = 140, cy = 116, maxR = 80;
+  const n = scores.length;
+  if (n < 2) return '';
+
+  const angleFor = (i) => -Math.PI / 2 + (i * 2 * Math.PI) / n;
+  const pt = (i, r) => {
+    const a = angleFor(i);
+    return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
+  };
+  const best = Math.max(...scores.map(s => s.score));
+
+  let rings = '';
+  for (const g of [0.25, 0.5, 0.75, 1]) {
+    const pts = scores.map((_, i) => {
+      const [x, y] = pt(i, maxR * g);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+    rings += `<polygon points="${pts}" fill="none" stroke="#e5e7eb" stroke-width="1"/>`;
+  }
+
+  let axes = '';
+  scores.forEach((_, i) => {
+    const [x, y] = pt(i, maxR);
+    axes += `<line x1="${cx}" y1="${cy}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="#e5e7eb" stroke-width="1"/>`;
+  });
+
+  const dataPts = scores.map((s, i) => {
+    const [x, y] = pt(i, maxR * clamp01(s.score));
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(' ');
+  const dataPoly = `<polygon points="${dataPts}" fill="rgba(37,99,235,0.15)" stroke="#2563eb" stroke-width="2"/>`;
+
+  let dots = '', labels = '';
+  scores.forEach((s, i) => {
+    const [x, y] = pt(i, maxR);
+    const isBest = s.score === best;
+    dots += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3.5" fill="${isBest ? '#2563eb' : '#94a3b8'}"/>`;
+    const [lx, ly] = pt(i, maxR + 18);
+    labels += `<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="middle" font-size="10.5" font-weight="${isBest ? '600' : '400'}" fill="${isBest ? '#2563eb' : '#6b7280'}">${escapeHtml(s.label)}</text>`;
+  });
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="Category similarity chart">${rings}${axes}${dataPoly}${dots}${labels}</svg>`;
 }
 
 // ============================================================
