@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inbox Categorizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Left Sidebar: Category Filters -->
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-title">Inbox SVD</span>
+        <span class="brand-badge">Live</span>
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-item active" data-category="All">
+          <span class="dot dot-all"></span>
+          <span class="label">All Emails</span>
+          <span class="count" id="count-all">0</span>
+        </button>
+        <button class="nav-item" data-category="Education">
+          <span class="dot dot-edu"></span>
+          <span class="label">Education</span>
+          <span class="count" id="count-edu">0</span>
+        </button>
+        <button class="nav-item" data-category="Work">
+          <span class="dot dot-work"></span>
+          <span class="label">Work</span>
+          <span class="count" id="count-work">0</span>
+        </button>
+        <button class="nav-item" data-category="Finance">
+          <span class="dot dot-finance"></span>
+          <span class="label">Finance</span>
+          <span class="count" id="count-finance">0</span>
+        </button>
+        <button class="nav-item" data-category="Promotions">
+          <span class="dot dot-promo"></span>
+          <span class="label">Promotions</span>
+          <span class="count" id="count-promo">0</span>
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <button id="auth-btn" class="btn-auth">Sign in with Gmail</button>
+        <div class="engine-info">Gmail OAuth 2.0 • 50D SVD</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Pane -->
+    <main class="main-content">
+      <header class="top-bar">
+        <div class="header-title-group">
+          <h1 id="view-title">Live Gmail Inbox</h1>
+          <span class="view-subtitle" id="view-stats">Connecting to Gmail...</span>
+        </div>
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Search emails..." />
+        </div>
+      </header>
+
+      <!-- Email List Container -->
+      <div class="email-list-container" id="email-list">
+        <div class="status-state" id="status-container">
+          <div class="spinner"></div>
+          <p id="status-text">Loading SVD matrix weights...</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
